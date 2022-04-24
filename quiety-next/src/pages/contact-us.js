@@ -8,11 +8,11 @@ import ContactForm from '@components/contact-us/ContactForm';
 
 const ContactUs = () => {
   return (
-    <Layout title="Contact Us" desc="This is contact us page">
+    <Layout title="HiWay" desc="This is contact us page">
       <Navbar classOption="navbar-light" />
       <PageHeader
-        title="Contact Us"
-        desc="Seamlessly actualize client-based users after out-of-the-box value data through frictionless expertise. Proactively coordinate quality quality vectors vis-a-vis supply chains. Quickly engage client-centric web services."
+        title="Políticas y Condiciones - HiWay"
+        desc="A continuación encontrarás las Politicas de Seguridad y los Términos & Condiciones. También Términos y Condiciones."
       />
       <ContactCard />
       <ContactForm />

@@ -1076,6 +1076,11 @@ select:invalid {
   position: relative;
   font-family: var(--bs-font-monospace);
 }
+
+div h3.nav-title {
+  color: white;
+}
+
 .navbar-dark .main-menu li a.nav-link {
   color: var(--bs-secondary-dark);
 }

@@ -37,21 +37,27 @@ const Navbar = ({ navDark }) => {
           <Link href="/">
             <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
               {scroll > headerTop || !navDark ? (
-                <Image
-                  width={113}
-                  height={36}
-                  src="/logo-color.png"
-                  alt="logo"
-                  className="img-fluid logo-color"
-                />
-              ) : (
-                <Image
-                  width={113}
-                  height={36}
-                  src="/logo-white.png"
-                  alt="logo"
-                  className="img-fluid logo-white"
-                />
+                // <Image
+                //   width={36}
+                //   height={32}
+                //   src="../../../assets/images/logoDS.png"
+                //   alt="logo"
+                //   className="img-fluid logo-color"
+                // />
+                <div>
+                  <h3>Design Systems</h3>
+                </div>
+                ) : (
+                // <Image
+                //   width={113}
+                //   height={36}
+                //   src="/logo-white.png"
+                //   alt="logo"
+                //   className="img-fluid logo-white"
+                // />
+                <div>
+                  <h3 className="nav-title">Design Systems</h3>
+                </div>
               )}
             </a>
           </Link>
@@ -71,6 +77,21 @@ const Navbar = ({ navDark }) => {
           <div className="clearfix"></div>
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
+              <li>
+                <Link href="/">
+                  <a className="nav-link">Inicio</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="nav-link">Nosotros</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="nav-link">Servicios</a>
+                </Link>
+              </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -79,7 +100,7 @@ const Navbar = ({ navDark }) => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Home
+                  Proyectos
                 </a>
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-half">
@@ -104,23 +125,13 @@ const Navbar = ({ navDark }) => {
                   </div>
                 </div>
               </li>
-              <li>
-                <Link href="about-us">
-                  <a className="nav-link">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="services">
-                  <a className="nav-link">Services</a>
-                </Link>
-              </li>
 
               <li>
-                <Link href="pricing">
-                  <a className="nav-link">Pricing</a>
+                <Link href="/">
+                  <a className="nav-link">Precios</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -128,12 +139,12 @@ const Navbar = ({ navDark }) => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Company
+                  Compañía
                 </a>
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-full">
                     <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Useful Links</h6>
+                    <h6 className="drop-heading">Links Usados</h6>
                       {navCompanyLinks.map((navLink, i) => (
                         <div key={i + 1}>
                           <Link href={navLink.href}>
@@ -146,7 +157,7 @@ const Navbar = ({ navDark }) => {
                       ))}
                     </div>
                     <div className="dropdown-grid-item radius-right-side bg-light">
-                      <h6 className="drop-heading">Utility Pages</h6>
+                      <h6 className="drop-heading">Páginas Utiles</h6>
                       {navCompanyPage.map((navPage, i) => (
                         <div key={i + 1}>
                           <Link href={navPage.href}>
@@ -160,17 +171,8 @@ const Navbar = ({ navDark }) => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
             </ul>
-          </div>
-
-          <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-            <Link href="login">
-              <a className="btn btn-link text-decoration-none me-2">Sign In</a>
-            </Link>
-            <Link href="request-demo">
-              <a className="btn btn-primary">Get Started</a>
-            </Link>
           </div>
 
           <div

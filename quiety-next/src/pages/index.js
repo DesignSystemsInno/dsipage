@@ -20,10 +20,10 @@ export default function Home() {
       <FeatureImgContentOne />
       <TestimonialOne darkBg />
       <WorkProcessOne />
-      <PricingOne header="true" />
-      <FaqOne />
-      <IntegrationOne />
-      <SupportOne />
+      {/* <PricingOne header="true" /> */}
+      {/* <FaqOne /> */}
+      {/* <IntegrationOne /> */}
+      {/* <SupportOne /> */}
       <Footer footerGradient />
     </Layout>
   );

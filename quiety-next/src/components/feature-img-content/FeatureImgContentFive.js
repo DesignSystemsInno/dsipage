@@ -27,7 +27,7 @@ const FeatureImgContentFive = () => {
                 </span>
               </div>
               <SectionTitle
-                title="Advanced Analytics, Understand Business"
+                title="Digital Products as you always dreamed them"
                 description="Distinctively promote parallel vortals with ubiquitous
                   e-markets. Proactively benchmark turnkey optimize
                   next-generation strategic leadership without resource sucking

@@ -8,10 +8,10 @@ const Layout = ({ children, title, desc, hasClass }) => {
         <title>
           {title
             ? `Quiety | ${title}`
-            : 'Quiety - Next Js Software & IT Solutions React Template'}
+            : 'Design Systems'}
         </title>
         {desc && <meta name="description" content={desc} />}
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="" />
       </Head>
 
       {children}

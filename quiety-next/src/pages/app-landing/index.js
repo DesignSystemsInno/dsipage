@@ -19,14 +19,14 @@ const AppLandingOne = () => {
     <Layout>
       <Navbar navDark />
       <HeroSectionFive />
-      <FeatureFour />
+      {/* <FeatureFour />
       <FeatureImgFour />
       <FeatureImgFive />
       <WorkProcessThree />
       <PriceTwo />
       <FaqThree />
       <TestimonialTwo />
-      <QuickSupport />
+      <QuickSupport /> */}
       <Footer footerLight />
     </Layout>
   );

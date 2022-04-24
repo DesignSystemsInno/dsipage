@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaBezierCurve } from 'react-icons/fa';
-import { FiTruck } from 'react-icons/fi';
+import { FiTruck, FiAirplay } from 'react-icons/fi';
 import { RiNodeTree } from 'react-icons/ri';
-import { GrResources } from 'react-icons/gr';
+import { GrGroup, GrImage } from 'react-icons/gr';
 
 const WorkProcessOne = () => {
   return (
@@ -12,12 +12,11 @@ const WorkProcessOne = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-10">
             <div className="section-heading text-center">
-              <h4 className="h5 text-primary">Process</h4>
-              <h2>We Follow Our Work Process</h2>
+              <h4 className="h5 text-primary">Procesos</h4>
+              <h2>Seguimos nuestros procesos de trabajo </h2>
               <p>
-                Enthusiastically engage cross-media leadership skills for
-                alternative experiences. Proactively drive vertical systems than
-                intuitive architectures.
+              La clave para desarrollar una aplicación exitosa es combinar la funcionalidad que exigen los usuarios, con un diseño y
+              una experiencia intuitivos que hagan que su uso sea lo más simple posible.
               </p>
             </div>
           </div>
@@ -43,11 +42,14 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 1</span>
-                  <h3 className="h5 mb-2">Research and Content Planing</h3>
+                  <span className="text-primary h6">Paso 1</span>
+                  <h3 className="h5 mb-2">Levantamiento de Requerimientos</h3>
                   <p>
-                    Progressively foster enterprise-wide systems whereas equity
-                    invested web-readiness harness installed base bandwidth.
+                    Realizamos una investigación profunda en conjunto con el
+                    cliente para obtener una comprensión completa del proyecto
+                    y mediante la creación de un documento de definición de
+                    requisitos describimos cada requisito del proyecto que nos
+                    ayuda a mantener el proyecto en marcha
                   </p>
                 </div>
               </li>
@@ -59,28 +61,33 @@ const WorkProcessOne = () => {
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 2</span>
-                  <h3 className="h5 mb-2">Publishing and Execution</h3>
+                  <span className="text-primary h6">Paso 2</span>
+                  <h3 className="h5 mb-2">Arquitectura de la información y Wireframes</h3>
                   <p>
-                    Dramatically administrate progressive metrics without
-                    error-free globally simplify standardized alignments
-                    plagiarize distributed.
+                    Organizamos el contenido y el flujo de una aplicación o sitio
+                    web, y creamos estructuras de contenido utilizables a partir de
+                    conjuntos complejos de información, desarrollando un
+                    esquema para la organización del contenido, las relaciones de
+                    información y la navegación.
                   </p>
                 </div>
               </li>
               <li className="d-flex align-items-start mb-4">
                 <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
                   <i className="far fa-2x">
-                    <GrResources />
+                    <GrGroup />
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 3</span>
-                  <h3 className="h5 mb-2">Product Prototyping</h3>
+                  <span className="text-primary h6">Paso 3</span>
+                  <h3 className="h5 mb-2">Proceso de Descubrimiento</h3>
                   <p>
-                    Interactively whiteboard transparent testing procedures
-                    before bricks-and-clicks initiatives administrate
-                    competencies.
+                    Durante el proceso de descubrimiento, investigamos a
+                    fondo la información del usuario, las restricciones técnicas y
+                    los objetivos y requisitos comerciales a través de entrevistas
+                    con los usuarios y las partes interesadas, auditorías de
+                    contenido y del sitio, análisis de tareas y mapeo del
+                    ecosistema.
                   </p>
                 </div>
               </li>
@@ -88,16 +95,38 @@ const WorkProcessOne = () => {
                 <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
                   <i className="far fa-2x">
                     {' '}
-                    <FiTruck />
+                    <GrImage />
                   </i>
                 </div>
                 <div className="icon-content">
-                  <span className="text-primary h6">Step 4</span>
-                  <h3 className="h5 mb-2">Deliver the Final Product</h3>
+                  <span className="text-primary h6">Paso 4</span>
+                  <h3 className="h5 mb-2">Creación de Prototipos</h3>
                   <p>
-                    Dramatically plagiarize distributed progressive metrics
-                    without error-free globally simplify standardized
-                    alignments.
+                    El proceso de creación de prototipos es donde creamos,
+                    revisamos y refinamos una simulación interactiva o un boceto
+                    del producto final. Esto nos permite visualizar completamente
+                    el resultado final del producto y medir su usabilidad antes de
+                    su implementación final.
+
+                  </p>
+                </div>
+              </li>
+              <li className="d-flex align-items-start mb-4 mb-lg-0">
+                <div className="process-icon-2 border border-2 rounded-custom bg-white me-4 mt-2">
+                  <i className="far fa-2x">
+                    {' '}
+                    <FiAirplay />
+                  </i>
+                </div>
+                <div className="icon-content">
+                  <span className="text-primary h6">Paso 5</span>
+                  <h3 className="h5 mb-2">Proceso de Diseño Visual</h3>
+                  <p>
+                  Centradas en el usuario para crear una experiencia de
+                  usuario que vaya más allá de la estética. Nos enfocamos en la
+                  funcionalidad y la usabilidad para diseñar una experiencia de
+                  usuario basada en una comprensión explícita de los usuarios,
+                  las tareas y los entornos.
                   </p>
                 </div>
               </li>

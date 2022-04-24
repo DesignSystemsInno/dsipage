@@ -45,8 +45,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     )}
                   </div>
                   <p>
-                    Our latest news, articles, and resources, we will sent to
-                    your inbox weekly.
+                    Para más información, déjanos tu correo.
                   </p>
 
                   <form className="newsletter-form position-relative d-block d-lg-flex d-md-flex">
@@ -65,15 +64,11 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
                     />
                   </form>
-                  <div className="ratting-wrap mt-4">
-                    <h6 className="mb-0">10/10 Overall rating</h6>
-                    <Rating />
-                  </div>
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
                 <div className="row">
-                  <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                  {/* <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                     <div className="footer-single-col">
                       <h3>Primary Pages</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
@@ -89,12 +84,12 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                         ))}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                     <div className="footer-single-col">
-                      <h3>Pages</h3>
+                      <h3>Contenido: </h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
-                        {footerPages.map((page, i) => (
+                        {footerPrimaryPages.map((page, i) => (
                           <li key={i + 1}>
                             <Link href={page.href}>
                               <a className="text-decoration-none">
@@ -107,7 +102,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       </ul>
                     </div>
                   </div>
-                  <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                  {/* <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
                     <div className="footer-single-col">
                       <h3>Template</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
@@ -123,7 +118,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                         ))}
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -141,12 +136,12 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 <div className="col-md-7 col-lg-7">
                   <div className="copyright-text">
                     <p className="mb-lg-0 mb-md-0">
-                      &copy; 2022 Quiety Rights Reserved. Designed By{' '}
+                      &copy; 2022 Todos los derechos reservados. Designed By{' '}
                       <a
                         href="https://themetags.com/"
                         className="text-decoration-none"
                       >
-                        ThemeTags
+                        Design Systems
                       </a>
                     </p>
                   </div>

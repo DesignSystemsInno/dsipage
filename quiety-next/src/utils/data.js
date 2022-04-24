@@ -192,28 +192,24 @@ const registerTestimonialTarget = [
 ///footer data
 const footerPrimaryPages = [
   {
-    title: 'Home',
+    title: 'Inicio',
     href: '/',
   },
   {
-    title: 'About Us',
-    href: '/about-us',
+    title: 'Nosotros',
+    href: '/',
   },
   {
-    title: 'Services',
-    href: '/services',
+    title: 'Servicios',
+    href: '/',
   },
   {
-    title: 'Career',
-    href: '/career',
+    title: 'Precios',
+    href: '/',
   },
   {
-    title: 'Integrations',
-    href: '/integrations',
-  },
-  {
-    title: 'Integrations Single',
-    href: '/integration-single',
+    title: 'Companía',
+    href: '/',
   },
 ];
 
@@ -273,46 +269,45 @@ const footerTemplate = [
 //navbar data
 const navHome = [
   {
-    title: 'Sass Company 1',
-    info: "It's for SaaS Software Company",
-    href: '/',
-  },
-  {
-    title: 'Sass Company 2',
-    info: ' Modern Sass agency',
-    href: 'sass-company-two',
-  },
-  {
-    title: 'Desktop App',
-    info: 'Web Software Company',
-    href: 'desktop-app',
-  },
-
-  {
-    title: 'App Landing',
-    info: ' App and Software Landing',
+    title: 'HiWay',
+    info: "Aplicación Móvil Transporte Público",
     href: 'app-landing',
   },
   {
-    title: 'Software Application',
-    info: 'IT solutions and SaaS Application',
-    href: 'software-application',
+    title: 'Dodo',
+    info: 'E-Commerce Impresión Bajo Demanda',
+    href: '/',
   },
   {
-    title: 'Startup Agency',
-    info: 'Different type of Agency',
-    href: 'startup-agency',
+    title: 'IoT Pandas',
+    info: 'Software Inmuebles del Futuro',
+    href: '/',
   },
-  {
-    title: 'Data Analysis',
-    info: ' Software & Data Analysis',
-    href: 'data-analysis',
-  },
-  {
-    title: 'App Landing Two',
-    info: 'Software & Data Analysis',
-    href: 'app-landing-two',
-  },
+  // {
+  //   title: 'App Landing',
+  //   info: ' App and Software Landing',
+  //   href: 'app-landing',
+  // },
+  // {
+  //   title: 'Software Application',
+  //   info: 'IT solutions and SaaS Application',
+  //   href: 'software-application',
+  // },
+  // {
+  //   title: 'Startup Agency',
+  //   info: 'Different type of Agency',
+  //   href: 'startup-agency',
+  // },
+  // {
+  //   title: 'Data Analysis',
+  //   info: ' Software & Data Analysis',
+  //   href: 'data-analysis',
+  // },
+  // {
+  //   title: 'App Landing Two',
+  //   info: 'Software & Data Analysis',
+  //   href: 'app-landing-two',
+  // },
 ];
 
 const navCompanyLinks = [
@@ -404,32 +399,32 @@ const navCompanyPage = [
 //
 const testimonialAuthor = [
   {
-    name: 'Joe Richard',
-    title: 'Visual Designer',
+    name: 'Camilo Galvis',
+    title: 'CEO | Visual, Web & App Developer',
     image: '/testimonial/1.jpg',
     target: '#testimonial-tab-1',
   },
   {
-    name: 'Rupan Oberoi',
-    title: 'Web Designer',
+    name: 'Jairo Carvajal',
+    title: 'CEO | Software Engineer',
     image: '/testimonial/2.jpg',
     target: '#testimonial-tab-2',
   },
   {
-    name: 'Jon Doe',
-    title: 'Software Engineer',
+    name: 'Felipe Oyuela',
+    title: 'CEO | Project Management',
     image: '/testimonial/3.jpg',
     target: '#testimonial-tab-3',
   },
   {
-    name: 'Hanry Luice',
-    title: 'App Developer',
+    name: 'Julian Ogaza',
+    title: 'Product Designer',
     image: '/testimonial/4.jpg',
     target: '#testimonial-tab-4',
   },
   {
-    name: 'Ami Nijai',
-    title: 'Customer Support',
+    name: 'Juan Manuel Young',
+    title: 'Security Software Developer',
     image: '/testimonial/5.jpg',
     target: '#testimonial-tab-5',
   },
@@ -437,9 +432,9 @@ const testimonialAuthor = [
 
 const testimonialOne = [
   {
-    name: 'Joe Richard',
-    title: 'Visual Designer',
-    header: 'The Best Template You Got to Have it!',
+    name: 'Camilo Galvis',
+    title: 'CEO | Visual, Web & App Developer',
+    header: 'Tenemos una comunión innovadora!',
     description:
       ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
     image: '/testimonial/t-1.jpg',
@@ -447,36 +442,36 @@ const testimonialOne = [
     active: 'active show',
   },
   {
-    name: 'Rupan Oberoi',
-    title: 'Web Designer',
-    header: 'The Best Template You Got to Have it!',
+    name: 'Jairo Carvajal',
+    title: 'CEO | Software Engineer',
+    header: 'Creemos en lo que hacemos!',
     description:
       ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
     image: '/testimonial/t-2.jpg',
     target: 'testimonial-tab-2',
   },
   {
-    name: 'Jon Doe',
-    title: 'Software Engineer',
-    header: 'The Best Template You Got to Have it!',
+    name: 'Felipe Oyuela',
+    title: 'CEO | Project Management',
+    header: 'Hacemos parte del futuro.',
     description:
       ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
     image: '/testimonial/t-3.jpg',
     target: 'testimonial-tab-3',
   },
   {
-    name: 'Hanry Luice',
-    title: 'App Developer',
-    header: 'The Best Template You Got to Have it!',
+    name: 'Julian Ogaza',
+    title: 'Product Designer',
+    header: 'Hay un sentimiento mezclado con visión.',
     description:
       ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
     image: '/testimonial/t-4.jpg',
     target: 'testimonial-tab-4',
   },
   {
-    name: 'Ami Nijai',
-    title: 'Customer Support',
-    header: 'The Best Template You Got to Have it!',
+    name: 'Juan Manuel Young',
+    title: 'Security Software Developer',
+    header: 'Somos pioneros en nuevas estrategias.',
     description:
       ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
     image: '/testimonial/t-5.jpg',

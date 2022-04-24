@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import SectionTitle from '../common/SectionTitle';
-import { RiStackLine } from 'react-icons/ri';
-import { BsCodeSlash, BsShieldCheck } from 'react-icons/bs';
+import { RiVideoAddFill } from 'react-icons/ri';
+import { BsCodeSlash, BsTvFill } from 'react-icons/bs';
 
 const FeatureOne = () => {
   return (
@@ -14,8 +14,8 @@ const FeatureOne = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
               <SectionTitle
-                title="With all the Features You Need"
-                description="Credibly grow premier ideas rather than bricks-and-clicks strategic theme areas distributed for stand-alone web-readiness."
+                title="Soluciones Integrales Para La Nueva Era Digital"
+                description="Estamos a la vanguardia del desarrollo tecnológico."
                 centerAlign
               />
             </div>
@@ -25,13 +25,16 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-primary">
-                  <RiStackLine className="text-white fa-2x" />
+                  <BsCodeSlash className="text-white fa-2x" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Good Performance</h3>
+                  <h3 className="h5">Soluciones de Desarrollo</h3>
                   <p>
-                    Appropriately grow competitive leadership rather than
-                    strategic technically sound processes without state.{' '}
+                    Soluciones de desarrollo web y aplicaciones móviles a la medida.
+                    Desde el concepto hasta el código, y desde el desarrollo
+                    hasta la implementación que mejorarán sus flujos de
+                    trabajo, ingresos y optimización de operaciones
+                    comerciales.  {' '}
                   </p>
                 </div>
               </div>
@@ -39,13 +42,14 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-danger">
-                  <BsShieldCheck className="fa-2x text-white" />
+                  <BsTvFill className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Highly Secure</h3>
+                  <h3 className="h5">E-Learning</h3>
                   <p>
-                    Appropriately grow competitive leadership rather than
-                    strategic technically sound processes without state.{' '}
+                    Creamos contenido y diseñamos sus productos e-learning
+                    para la industria 4.0.
+                    {' '}
                   </p>
                 </div>
               </div>
@@ -53,19 +57,21 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-dark">
-                  <BsCodeSlash className="fa-2x text-white" />
+                  <RiVideoAddFill className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Fast Development</h3>
-                  <p>
-                    Appropriately grow competitive leadership rather than
-                    strategic technically sound processes without state.{' '}
-                  </p>
+                    <h3 className="h5">Videos de Marketing</h3>
+                    <p>
+                      Potenciamos sus campañas de marketing con la
+                      creación de videos de alta calidad en distintos
+                      formatos y para todo tipo de clientes.
+                      {' '}
+                    </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="row pt-60">
+          {/* <div className="row pt-60">
             <div className="col-lg-6 mt-4">
               <div className="position-relative d-flex flex-column h-100 flex-wrap bg-danger-soft p-5 rounded-custom">
                 <div className="cta-left-info mb-2">
@@ -122,7 +128,7 @@ const FeatureOne = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
