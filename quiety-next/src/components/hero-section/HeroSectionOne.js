@@ -27,33 +27,15 @@ const HeroSectionOne = () => {
                 <VideoModal className="true" />
               </div>
               <div className="row justify-content-lg-start mt-60">
-                <h6 className="text-white-70 mb-2">Top Clientes:</h6>
-                <div className="col-4 col-sm-3 my-2 ps-lg-0">
-                  <Image
-                    width={141}
-                    height={56}
-                    src="clients/client-1.svg"
-                    alt="client"
-                    className="img-fluid"
-                  />
+                <h6 className="text-white-70 mb-2">Proyectos:</h6>
+                <div className="col-4 col-sm-3 my-2">
+                  <h4>IoT Pandas</h4>
                 </div>
                 <div className="col-4 col-sm-3 my-2">
-                  <Image
-                    width={141}
-                    height={56}
-                    src="/clients/client-2.svg"
-                    alt="client"
-                    className="img-fluid"
-                  />
+                  <h4>HiWay</h4>
                 </div>
                 <div className="col-4 col-sm-3 my-2">
-                  <Image
-                    width={141}
-                    height={56}
-                    src="/clients/client-3.svg"
-                    alt="client"
-                    className="img-fluid"
-                  />
+                  <h4>Dodo</h4>
                 </div>
               </div>
             </div>

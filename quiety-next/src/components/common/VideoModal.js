@@ -25,7 +25,7 @@ const VideoModal = ({ className, onlyButton }) => {
         <IoPlayCircleOutline className={`${onlyButton && 'fa-2x'}`} />
 
         {!onlyButton && (
-          <span className="text-white ms-1 small"> Watch Video</span>
+          <span className="text-white ms-1 small"> Ver Video</span>
         )}
       </a>
     </>
