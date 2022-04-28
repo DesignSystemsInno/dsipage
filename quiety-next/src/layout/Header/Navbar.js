@@ -105,7 +105,7 @@ const Navbar = ({ navDark }) => {
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-half">
                     <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Different Home</h6>
+                      <h6 className="drop-heading">Proyectos DSI</h6>
                       {navHome.map((navH, i) => (
                         <span key={i + 1}>
                           <Link href={navH.href}>

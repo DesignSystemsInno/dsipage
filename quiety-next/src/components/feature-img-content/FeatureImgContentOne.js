@@ -50,7 +50,7 @@ const FeatureImgContentOne = () => {
                   href="about-us.html"
                   className="read-more-link text-decoration-none"
                 >
-                  Know More About Us{' '}
+                  Saber Más Sobre Nosotros{' '}
                   <span className="far ms-2 mb-1">
                     <FiArrowRight />
                   </span>
@@ -60,10 +60,10 @@ const FeatureImgContentOne = () => {
             <div className="col-lg-6 col-12">
               <div className="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
                 <Image
-                  width={636}
-                  height={464}
+                  width={743}
+                  height={743}
                   layout="responsive"
-                  src="/screen/widget-11.png"
+                  src="/shape/landing2.png"
                   className="img-fluid"
                   alt="feature-image"
                 />
@@ -112,7 +112,7 @@ const FeatureImgContentOne = () => {
                   href="about-us.html"
                   className="read-more-link text-decoration-none d-block mt-4"
                 >
-                  Know More About Us{' '}
+                  Saber Más Sobre Nosotros{' '}
                   <span className="far ms-2 mb-1">
                     <FiArrowRight />
                   </span>
@@ -122,10 +122,10 @@ const FeatureImgContentOne = () => {
             <div className="col-lg-6 col-12 order-lg-0">
               <div className="feature-img-holder mt-4 mt-lg-0 mt-xl-0">
                 <Image
-                  width={636}
-                  height={492}
+                  width={743}
+                  height={743}
                   layout="responsive"
-                  src="/screen/widget-12.png"
+                  src="/shape/landing33.png"
                   className="img-fluid"
                   alt="feature-image"
                 />

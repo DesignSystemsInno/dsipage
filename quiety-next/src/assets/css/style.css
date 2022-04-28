@@ -3759,7 +3759,7 @@ li.setup-process-item:not(:last-child):before {
   flex: 0 0 auto;
 }
 .shape-service .color-shape-2 {
-  left: -120px;
+  left: 0px;
   bottom: 100px;
   flex: 0 0 auto;
 }

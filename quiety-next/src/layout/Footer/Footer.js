@@ -25,25 +25,25 @@ const Footer = ({ footerLight, style, footerGradient }) => {
             <div className="row justify-content-between">
               <div className="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
                 <div className="footer-single-col">
-                  <div className="footer-single-col mb-4">
+                  {/* <div className="footer-single-col mb-5 d-flex justify-content-center">
                     {footerLight ? (
                       <Image
-                        width={113}
-                        height={36}
-                        src="/logo-color.png"
+                      width={100}
+                      height={100}
+                      src="/logoDS2.png"
+                      alt="logo"
+                      className="img-fluid logo-white"
+                    />
+                    ) : (
+                      <Image
+                        width={100}
+                        height={100}
+                        src="/logoDS2.png"
                         alt="logo"
                         className="img-fluid logo-white"
                       />
-                    ) : (
-                      <Image
-                        width={113}
-                        height={36}
-                        src="/logo-white.png"
-                        alt="logo"
-                        className="img-fluid logo-color"
-                      />
                     )}
-                  </div>
+                  </div> */}
                   <p>
                     Para más información, déjanos tu correo.
                   </p>
@@ -85,7 +85,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       </ul>
                     </div>
                   </div> */}
-                  <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                  <div className="col-md-8 col-lg-6 mt-4 mt-md-0 mt-lg-0">
                     <div className="footer-single-col">
                       <h3>Contenido: </h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
@@ -102,8 +102,8 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       </ul>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                    <div className="footer-single-col">
+                  <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                    {/* <div className="footer-single-col">
                       <h3>Template</h3>
                       <ul className="list-unstyled footer-nav-list mb-lg-0">
                         {footerTemplate.map((template, i) => (
@@ -117,8 +117,15 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                           </li>
                         ))}
                       </ul>
-                    </div>
-                  </div> */}
+                    </div> */}
+                    <Image
+                        width={200}
+                        height={200}
+                        src="/logoDS2.png"
+                        alt="logo"
+                        className="img-fluid logo-white"
+                      />
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { FaGrinStars, FaShieldAlt, FaViber } from 'react-icons/fa';
+import { FaHands, FaShieldAlt, FaRegClock } from 'react-icons/fa';
 
 import SectionTitle from '../common/SectionTitle';
 
@@ -12,11 +12,11 @@ const FeatureFour = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-12">
               <SectionTitle
-                subtitle="Build Quality"
-                title="Our Special Features"
-                description="Authoritatively underwhelm excellent methodologies via premium
-                  expertise competitive than open-source imperatives
-                  disseminate."
+                subtitle="Aplicación móvil"
+                title="App de movilidad para el transporte público"
+                description="HiWay, es una aplicación móvil que brinda un panorama conceptual de los vehículos de transporte público en tiempo real;
+                es decir, los usuarios podrán experimentar los movimientos en vivo de cada vehículo (bus, colectivo o metro). De esta manera, se busca
+                ahorrar el tiempo de cada persona & brindar más seguridad a la población en términos de espera."
                 centerAlign
               />
             </div>
@@ -34,10 +34,11 @@ const FeatureFour = () => {
                       <FaShieldAlt />
                     </i>
                   </div>
-                  <h3 className="h5">Quality First</h3>
+                  <h3 className="h5">Seguridad</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
+                    La aplicación se identifica con las 
+                    personas que en determinadas horas del día, especialmente en la madruga y en altas horas de la noche, se establecen a la espera
+                    de tomar su ruta de transporte.
                   </p>
                 </div>
 
@@ -55,13 +56,13 @@ const FeatureFour = () => {
                 <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0 mt-md-0">
                   <div className="feature-icon d-inline-block bg-danger-soft rounded-circle mb-32">
                     <i className="fad text-danger fa-2x">
-                      <FaViber />
+                      <FaRegClock />
                     </i>
                   </div>
-                  <h3 className="h5">Communication</h3>
+                  <h3 className="h5">Tranquilidad</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
+                    El tiempo de espera ya no será una limitación, para aquellos usuarios que en sus actividades diarias,
+                    toman el transporte público.
                   </p>
                 </div>
               </div>
@@ -75,13 +76,12 @@ const FeatureFour = () => {
                 <div className="cta-card rounded-custom text-center custom-shadow p-5 bg-white mt-4 mt-lg-0">
                   <div className="feature-icon d-inline-block bg-success-soft rounded-circle mb-32">
                     <i className="fad text-success fa-2x">
-                      <FaGrinStars />
+                      <FaHands />
                     </i>
                   </div>
-                  <h3 className="h5">Reliability</h3>
+                  <h3 className="h5">Facilidad</h3>
                   <p className="mb-0">
-                    Professionally integrate high standards applications before
-                    user friendly leadership skills.
+                    La aplicación tiene un diseño amigable, por lo tanto, podrá ser usada desde jovenes hasta adultos mayores. 
                   </p>
                 </div>
 

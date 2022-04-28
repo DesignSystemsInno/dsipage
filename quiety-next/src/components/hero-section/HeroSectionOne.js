@@ -15,16 +15,16 @@ const HeroSectionOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h4 className="fw-bold display-5">
-              Desarrollo de Software a la Medida
+              Diseño & Desarrollo de Sistemas Software
               </h4>
               <p className="lead">
-              Para nuevas, pequeñas, medianas (PYMES) y grandes empresas.
+              A tu medida, para todo tipo de empresas: negocios locales, pequeñas, medianas (PYMES) y grandes.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/request-demo">
+                <Link href="/">
                   <a className="btn btn-primary">Solicitar Información</a>
                 </Link>
-                <VideoModal className="true" />
+                {/* <VideoModal className="true" /> */}
               </div>
               <div className="row justify-content-lg-start mt-60">
                 <h6 className="text-white-70 mb-2">Proyectos:</h6>
@@ -43,16 +43,14 @@ const HeroSectionOne = () => {
                   
           <div className="col-lg-6 col-md-8 mt-5">
             <div className="hero-img position-relative circle-shape-images">
-              <ul className="position-absolute animate-element parallax-element circle-shape-list">
-                <li className="layer" data-depth="0.03">
-                </li>
-                <li className="layer" data-depth="0.02">
+            <div>
                   <img
-                    src="/shape/circle-1.svg"
+                    src="/shape/landing1.png"
                     alt="shape"
-                    className="circle-shape-item type-1 hero-1"
+                    className="w-100"
                   />
-                </li>
+              </div>
+              <ul className="position-absolute animate-element parallax-element circle-shape-list">
                 <li className="layer" data-depth="0.04">
                   <img
                     src="/shape/circle-1.svg"

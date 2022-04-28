@@ -11,23 +11,32 @@ const HeroSectionFive = () => {
     >
       <div className="container">
         <div className="row justify-content-center text-center text-lg-center align-items-center">
-          <div className="col-lg-6 col-md-10">
-            <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
-              <HeroTitle
-                title="HiWay"
-                desc="¡El tiempo es tuyo!"
-              />
-
+          <div className="col-lg-4 col-md-10">
+            <div className="hero-content-wrap mt-0 mt-lg-0 mt-xl-0">
+              <div className="mb-4">
+                <img
+                      src="/screen/hiwayicon.png"
+                      alt="awards"
+                      className="w-25"
+                  />
+              </div>
+                <div className="m-3">
+                  <HeroTitle
+                    title="HiWay"
+                    desc="¡El tiempo es tuyo!"
+                  />
+                  <p>Aplicación para visualizar el transporte público en tiempo real.</p>
+                </div>
               <div
                 className="action-btns mt-5"
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
                 <Link href="/request-for-demo">
-                  <a className="btn btn-primary me-3">Descargar</a>
+                  <a className="btn btn-primary me-3 mb-3">Descargar</a>
                 </Link>
                 <Link href="/contact-us">
-                  <a className="btn btn-outline-light">Politicas & Condiciones</a>
+                  <a className="btn btn-outline-light mb-3">Politicas & Condiciones</a>
                 </Link>
               </div>
               <ul
@@ -57,21 +66,16 @@ const HeroSectionFive = () => {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-6 col-md-8">
-            <img
-                src="https://res.cloudinary.com/jairo/image/upload/v1650787179/DSIimages/hi_1_drd9pj.png"
-                alt="shape"
-                className="img-fluid position-absolute color-shape-1"
-              />
+          <div className="col-lg-8 col-md-8">
             <div
-              className="position-relative  mt-5"
+              className="position-relative mt-5 me-5"
               style={{
                 backgroundImage: 'url(/shape/shape-bg-3.svg)',
               }}
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              {/* <ul className="position-absolute animate-element parallax-element shape-service">
+              <ul className="position-absolute animate-element parallax-element shape-service">
                 <li className="layer" data-depth="0.03">
                   <img
                     src="/color-shape/image-4.svg"
@@ -93,8 +97,12 @@ const HeroSectionFive = () => {
                     className="img-fluid position-absolute color-shape-3"
                   />
                 </li>
-              </ul> */}
-
+              </ul>
+              <img
+                src="/screen/hi.png"
+                alt="hero"
+                className="img-fluid position-relative z-5"
+              />
             </div>
           </div>
         </div>

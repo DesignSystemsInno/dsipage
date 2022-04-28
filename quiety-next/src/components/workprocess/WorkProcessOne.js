@@ -25,9 +25,9 @@ const WorkProcessOne = () => {
           <div className="col-lg-5 col-md-12 order-1 order-lg-0">
             <div className="img-wrap">
               <Image
-                width={526}
-                height={621}
-                src="/office-img-1.jpg"
+                width={743}
+                height={743}
+                src="/construction.png"
                 alt="work process"
                 className="img-fluid rounded-custom"
               />

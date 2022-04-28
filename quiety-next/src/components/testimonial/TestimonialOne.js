@@ -16,7 +16,7 @@ const TestimonialOne = ({ darkBg }) => {
         <div className="row justify-content-center align-content-center">
           <div className="col-md-10 col-lg-6">
             <div className="section-heading text-center">
-              <h4 className="h5 text-warning text-primary">Nuestras Apps</h4>
+              <h4 className="h5 text-warning text-primary">Nuestra Compañia</h4>
               <h2>Soluciones para la Cuarta Revolución Industrial.</h2>
               <p>
                 Una transición a la modernidad. Innovación con las herramientas más óptimas.
@@ -35,7 +35,7 @@ const TestimonialOne = ({ darkBg }) => {
                   role="tabpanel"
                 >
                   <div className="row align-items-center justify-content-between">
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-lg-8 col-md-6">
                       <div className="testimonial-tab-content mb-5 mb-lg-0 mb-md-0">
                         <Image
                           width={65}
@@ -60,19 +60,16 @@ const TestimonialOne = ({ darkBg }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-5 col-md-6">
-                      <div className="author-img-wrap pt-5 ps-5">
+                    <div className="col-lg-4 col-md-6">
+                      <div className="author-img-wrap pt-3 ps-3">
                         <div className="testimonial-video-wrapper position-relative">
                           <Image
-                            width={478}
-                            height={382}
+                            width={300}
+                            height={300}
                             src={testimonial.image}
                             className="img-fluid rounded-custom shadow-lg"
                             alt="testimonial author"
                           />
-                          <div className="customer-info text-white d-flex align-items-center">
-                            <VideoModal />
-                          </div>
                           <div className="position-absolute bg-primary-dark z--1 dot-mask dm-size-16 dm-wh-350 top--40 left--40 top-left"></div>
                         </div>
                       </div>

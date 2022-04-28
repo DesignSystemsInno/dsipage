@@ -400,32 +400,32 @@ const navCompanyPage = [
 const testimonialAuthor = [
   {
     name: 'Camilo Galvis',
-    title: 'CEO | Visual, Web & App Developer',
-    image: '/testimonial/1.jpg',
+    title: 'CEO | Web & Mobile Designer-Developer',
+    image: '/testimonial/camilo1.jpg',
     target: '#testimonial-tab-1',
   },
   {
     name: 'Jairo Carvajal',
     title: 'CEO | Software Engineer',
-    image: '/testimonial/2.jpg',
+    image: '/testimonial/jairo1.jpg',
     target: '#testimonial-tab-2',
   },
   {
     name: 'Felipe Oyuela',
     title: 'CEO | Project Management',
-    image: '/testimonial/3.jpg',
+    image: '/testimonial/felipe1.jpg',
     target: '#testimonial-tab-3',
   },
   {
     name: 'Julian Ogaza',
-    title: 'Product Designer',
-    image: '/testimonial/4.jpg',
+    title: 'Product Design Engineer',
+    image: '/testimonial/julian.png',
     target: '#testimonial-tab-4',
   },
   {
-    name: 'Juan Manuel Young',
+    name: 'Juan M. Young',
     title: 'Security Software Developer',
-    image: '/testimonial/5.jpg',
+    image: '/testimonial/juan1.jpg',
     target: '#testimonial-tab-5',
   },
 ];
@@ -436,8 +436,8 @@ const testimonialOne = [
     title: 'CEO | Visual, Web & App Developer',
     header: 'Tenemos una comunión innovadora!',
     description:
-      ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
-    image: '/testimonial/t-1.jpg',
+      'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',
+    image: '/testimonial/camilo2.png',
     target: 'testimonial-tab-1',
     active: 'active show',
   },
@@ -446,8 +446,8 @@ const testimonialOne = [
     title: 'CEO | Software Engineer',
     header: 'Creemos en lo que hacemos!',
     description:
-      ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
-    image: '/testimonial/t-2.jpg',
+    'Se sabe crear, pero no amar, el mecanismo para apreciar está bastante oxidado. Entonces es hoy cuando el mundo necesita una revolución vertiginosa en la capacidad de amar, en la cual podamos decir estamos en la revolución del amor 4.0 y 5.0.',    
+    image: '/testimonial/jairo2.png',
     target: 'testimonial-tab-2',
   },
   {
@@ -455,17 +455,17 @@ const testimonialOne = [
     title: 'CEO | Project Management',
     header: 'Hacemos parte del futuro.',
     description:
-      ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
-    image: '/testimonial/t-3.jpg',
+    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    image: '/testimonial/felipe2.png',
     target: 'testimonial-tab-3',
   },
   {
     name: 'Julian Ogaza',
-    title: 'Product Designer',
+    title: 'Product Design Engineer',
     header: 'Hay un sentimiento mezclado con visión.',
     description:
-      ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
-    image: '/testimonial/t-4.jpg',
+    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    image: '/testimonial/julian2.png',
     target: 'testimonial-tab-4',
   },
   {
@@ -473,8 +473,8 @@ const testimonialOne = [
     title: 'Security Software Developer',
     header: 'Somos pioneros en nuevas estrategias.',
     description:
-      ' Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media infrastructures rather than ethical sticky alignments rather than global. Plagiarize technically sound total linkage for leveraged value media web-readiness and premium processes.',
-    image: '/testimonial/t-5.jpg',
+    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    image: '/testimonial/juan2.png',
     target: 'testimonial-tab-5',
   },
 ];
@@ -867,7 +867,7 @@ const careerJobCard = [
   {
     type: 'Remote - Full Time',
     position: 'Designer',
-    title: 'UI/UX and Product Designer',
+    title: 'UI/UX and Product Design Engineer',
     className: 'bg-danger-soft text-danger',
     listItem: [
       {

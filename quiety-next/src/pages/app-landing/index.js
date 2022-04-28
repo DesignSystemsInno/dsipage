@@ -19,8 +19,8 @@ const AppLandingOne = () => {
     <Layout>
       <Navbar navDark />
       <HeroSectionFive />
-      {/* <FeatureFour />
-      <FeatureImgFour />
+      <FeatureFour />
+      {/* <FeatureImgFour />
       <FeatureImgFive />
       <WorkProcessThree />
       <PriceTwo />
