@@ -25,9 +25,9 @@ const WorkProcessOne = () => {
           <div className="col-lg-5 col-md-12 order-1 order-lg-0">
             <div className="img-wrap">
               <Image
-                width={743}
-                height={743}
-                src="/construction.png"
+                width={900}
+                height={900}
+                src="/build.png"
                 alt="work process"
                 className="img-fluid rounded-custom"
               />
@@ -48,8 +48,8 @@ const WorkProcessOne = () => {
                     Realizamos una investigación profunda en conjunto con el
                     cliente para obtener una comprensión completa del proyecto
                     y mediante la creación de un documento de definición de
-                    requisitos describimos cada requisito del proyecto que nos
-                    ayuda a mantener el proyecto en marcha
+                    requisitos, describimos cada requisito del proyecto que nos
+                    ayuda a mantenerlo en marcha.
                   </p>
                 </div>
               </li>
@@ -62,13 +62,14 @@ const WorkProcessOne = () => {
                 </div>
                 <div className="icon-content">
                   <span className="text-primary h6">Paso 2</span>
-                  <h3 className="h5 mb-2">Arquitectura de la información y Wireframes</h3>
+                  <h3 className="h5 mb-2">Proceso de Descubrimiento</h3>
                   <p>
-                    Organizamos el contenido y el flujo de una aplicación o sitio
-                    web, y creamos estructuras de contenido utilizables a partir de
-                    conjuntos complejos de información, desarrollando un
-                    esquema para la organización del contenido, las relaciones de
-                    información y la navegación.
+                    Durante el proceso de descubrimiento, investigamos a
+                    fondo la información del usuario, las restricciones técnicas,
+                    los objetivos y requisitos comerciales, a través de entrevistas
+                    con los usuarios y las partes interesadas, auditorías de
+                    contenido y del sitio, análisis de tareas y mapeo del
+                    ecosistema.
                   </p>
                 </div>
               </li>
@@ -80,14 +81,13 @@ const WorkProcessOne = () => {
                 </div>
                 <div className="icon-content">
                   <span className="text-primary h6">Paso 3</span>
-                  <h3 className="h5 mb-2">Proceso de Descubrimiento</h3>
+                  <h3 className="h5 mb-2">Arquitectura de la información y Wireframes</h3>
                   <p>
-                    Durante el proceso de descubrimiento, investigamos a
-                    fondo la información del usuario, las restricciones técnicas y
-                    los objetivos y requisitos comerciales a través de entrevistas
-                    con los usuarios y las partes interesadas, auditorías de
-                    contenido y del sitio, análisis de tareas y mapeo del
-                    ecosistema.
+                    Organizamos el contenido y el flujo de una aplicación o sitio
+                    web, y creamos estructuras de contenido utilizables a partir de
+                    conjuntos complejos de información, desarrollando un
+                    esquema para la organización del contenido, las relaciones de
+                    información y la navegación.
                   </p>
                 </div>
               </li>

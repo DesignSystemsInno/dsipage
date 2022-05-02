@@ -436,7 +436,7 @@ const testimonialOne = [
     title: 'CEO | Visual, Web & App Developer',
     header: 'Tenemos una comunión innovadora!',
     description:
-      'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',
+      'Es una persona dedicada a la objetividad, le gusta estudiar los sistemas y analizar la manera en que estos se pueden transformar. Ha desarrollado backend como frontend, aplicaciones web & móviles. Es el cofundador de HiWay.',
     image: '/testimonial/camilo2.png',
     target: 'testimonial-tab-1',
     active: 'active show',
@@ -446,7 +446,7 @@ const testimonialOne = [
     title: 'CEO | Software Engineer',
     header: 'Creemos en lo que hacemos!',
     description:
-    'Se sabe crear, pero no amar, el mecanismo para apreciar está bastante oxidado. Entonces es hoy cuando el mundo necesita una revolución vertiginosa en la capacidad de amar, en la cual podamos decir estamos en la revolución del amor 4.0 y 5.0.',    
+    'Se caracteriza por ser una persona que escucha a los demás y convertirse en un agente solucionador de problemas utilizando el pensamiento crítico. Le gusta contribuir con el desarrollo de actividades grupales asumiendo con responsabilidad sus funciones. Dentro de sus principales habilidades se destacan la capacidad de crear, innovar, diseñar, proponer ideas en el ámbito de la tecnología para el desarrollo de soluciones a diferentes problemáticas.',    
     image: '/testimonial/jairo2.png',
     target: 'testimonial-tab-2',
   },
@@ -455,7 +455,7 @@ const testimonialOne = [
     title: 'CEO | Project Management',
     header: 'Hacemos parte del futuro.',
     description:
-    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    'Es innovador y creativo, comprende la necesidad de usar la tecnogia para mejorar la calidad de vida en el planeta. Se encarga de idear las aplicaciones y soluciones más acertivas para nuestros clientes.',    
     image: '/testimonial/felipe2.png',
     target: 'testimonial-tab-3',
   },
@@ -464,7 +464,7 @@ const testimonialOne = [
     title: 'Product Design Engineer',
     header: 'Hay un sentimiento mezclado con visión.',
     description:
-    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    'Diseñador en proceso, gusto por el detalle, la interacción con otras personas, culturas y entornos. Características que  le  exigen ser  una  persona proactiva, con conocimientos  en software CAD  y de  producción, tales como Solidworks, Creo Parametric, Rhino y Cinema 4D; adicional, conocimientos en programas  de  diseño  como Illustrator, Photoshop y After Effects  y  competencias comerciales  como manejo de clientes, trabajo  en equipo y coordinación logística.',    
     image: '/testimonial/julian2.png',
     target: 'testimonial-tab-4',
   },
@@ -473,7 +473,7 @@ const testimonialOne = [
     title: 'Security Software Developer',
     header: 'Somos pioneros en nuevas estrategias.',
     description:
-    'Somos una compañía que busca innovación, tanto para sí misma, como para el desarrollo de cualquier startup. Para ellos hemos adoptado nuevos modelos y dinamicas en nuestra compañía que nos van a ayudar a ser una de las más grandes empresas innovadoras de la región.',    
+    'Es autodidacta por excelencia, con una amplia gama de conocimientos en desarrollo de aplicaciones web & móvil, en IoT y sobre todo, en seguridad informática. La computación es su mayor pasión.',    
     image: '/testimonial/juan2.png',
     target: 'testimonial-tab-5',
   },

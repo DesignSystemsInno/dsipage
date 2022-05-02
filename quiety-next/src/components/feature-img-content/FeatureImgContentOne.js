@@ -19,10 +19,8 @@ const FeatureImgContentOne = () => {
                 </div>
                 <h2>Los productos digitales como siempre los soñaste.</h2>
                 <p>
-                  Desde una pagina web informativa o un portal web que le permita
-                  mejorar la visibilidad de su organización, hasta una aplicación web
-                  con diferentes funcionalidades para automatizar los procesos
-                  dentro de su empresa, Design Systems tiene la solución.
+                Desde una pagina web informativa hasta una aplicación web con diferentes funcionalidades,
+                con el objetivo de mejorar la visibilidad y automatizar procesos dentro de su organización.
                 </p>
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
@@ -47,7 +45,7 @@ const FeatureImgContentOne = () => {
                   </li>
                 </ul>
                 <a
-                  href="about-us.html"
+                  href="/"
                   className="read-more-link text-decoration-none"
                 >
                   Saber Más Sobre Nosotros{' '}
@@ -109,7 +107,7 @@ const FeatureImgContentOne = () => {
                 </ul>
 
                 <a
-                  href="about-us.html"
+                  href="/"
                   className="read-more-link text-decoration-none d-block mt-4"
                 >
                   Saber Más Sobre Nosotros{' '}

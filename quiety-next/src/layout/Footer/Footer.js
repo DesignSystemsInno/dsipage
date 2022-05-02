@@ -118,13 +118,13 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                         ))}
                       </ul>
                     </div> */}
-                    <Image
-                        width={200}
-                        height={200}
+                    {/* <Image
+                        width={150}
+                        height={150}
                         src="/logoDS2.png"
                         alt="logo"
                         className="img-fluid logo-white"
-                      />
+                      /> */}
                   </div>
                 </div>
               </div>

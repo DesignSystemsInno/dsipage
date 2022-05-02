@@ -16,7 +16,7 @@ const TestimonialOne = ({ darkBg }) => {
         <div className="row justify-content-center align-content-center">
           <div className="col-md-10 col-lg-6">
             <div className="section-heading text-center">
-              <h4 className="h5 text-warning text-primary">Nuestra Compañia</h4>
+              <h4 className="h5 text-warning text-primary">Equipo Multidiciplinario</h4>
               <h2>Soluciones para la Cuarta Revolución Industrial.</h2>
               <p>
                 Una transición a la modernidad. Innovación con las herramientas más óptimas.
@@ -48,7 +48,7 @@ const TestimonialOne = ({ darkBg }) => {
                           <h3 className="mb-0 h4 fw-semi-bold">
                             {testimonial.header}
                           </h3>
-                          <Rating />
+                          {/* <Rating /> */}
                         </div>
 
                         <blockquote className="blockquote">

@@ -15,7 +15,7 @@ const FeatureOne = () => {
             <div className="col-lg-6 col-md-10">
               <SectionTitle
                 title="Soluciones Integrales Para La Nueva Era Digital"
-                description="Estamos a la vanguardia del desarrollo tecnológico."
+                description="Estamos a la vanguardia del desarrollo de software."
                 centerAlign
               />
             </div>
@@ -60,10 +60,10 @@ const FeatureOne = () => {
                   <RiVideoAddFill className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                    <h3 className="h5">Videos de Marketing</h3>
+                    <h3 className="h5">Marketing Digital</h3>
                     <p>
                       Potenciamos sus campañas de marketing con la
-                      creación de videos de alta calidad en distintos
+                      creación de servicios digitales de alta calidad, en distintos
                       formatos y para todo tipo de clientes.
                       {' '}
                     </p>

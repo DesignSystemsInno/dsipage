@@ -6,7 +6,30 @@ const OffCanvasMenu = () => {
   return (
     <div className="offcanvas-body">
       <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-      <li className="nav-item dropdown">
+              <li>
+                <Link href="/">
+                  <a className="nav-link">Inicio</a>
+                </Link>
+              </li>
+              <li>
+                {/* <Link href="/pricing"> */}
+                <Link href="/">
+                  <a className="nav-link">Nosotros</a>
+                </Link>
+              </li>
+              <li>
+                {/* <Link href="/services"> */}
+                <Link href="/">
+                  <a className="nav-link">Servicios</a>
+                </Link>
+              </li>
+              <li>
+                {/* <Link href="/pricing"> */}
+                <Link href="/">
+                  <a className="nav-link">Precios</a>
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle d-flex justify-content-between"
                   href="#"
@@ -14,12 +37,12 @@ const OffCanvasMenu = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Home
+                  Proyectos
                 </a>
                 <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
                   <div className="dropdown-grid rounded-custom width-half">
                     <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Different Home</h6>
+                      <h6 className="drop-heading">Proyectos DSI</h6>
                       {navHome.map((navH, i) => (
                         <span key={i + 1}>
                           <Link href={navH.href}>
@@ -39,23 +62,7 @@ const OffCanvasMenu = () => {
                   </div>
                 </div>
               </li>
-              <li>
-                <Link href="/about-us">
-                  <a className="nav-link">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/services">
-                  <a className="nav-link">Services</a>
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/pricing">
-                  <a className="nav-link">Pricing</a>
-                </Link>
-              </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle d-flex justify-content-between"
                   href="#"
@@ -95,16 +102,16 @@ const OffCanvasMenu = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
       </ul>
-      <div className="action-btns mt-4 ps-3">
+      {/* <div className="action-btns mt-4 ps-3">
         <Link href="/login">
           <a className="btn btn-outline-primary text-decoration-none me-2">Sign In</a>
         </Link>
         <Link href="/request-demo">
           <a className="btn btn-primary">Get Started</a>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

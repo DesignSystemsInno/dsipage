@@ -183,13 +183,14 @@ const Navbar = ({ navDark }) => {
             <div className="offcanvas-header d-flex align-items-center mt-4">
               <Link href="/">
                 <a className="d-flex align-items-center mb-md-0 text-decoration-none">
-                  <Image
+                  {/* <Image
                     width={121}
                     height={36}
                     src="/logo-color.png"
                     alt="logo"
                     className="img-fluid ps-2"
-                  />
+                  /> */}
+                  <h3>Design Systems</h3>
                 </a>
               </Link>
               <button

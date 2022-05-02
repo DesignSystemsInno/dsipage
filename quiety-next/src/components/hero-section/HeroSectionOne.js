@@ -15,7 +15,7 @@ const HeroSectionOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h4 className="fw-bold display-5">
-              Diseño & Desarrollo de Sistemas Software
+              Diseño & Desarrollo de Software
               </h4>
               <p className="lead">
               A tu medida, para todo tipo de empresas: negocios locales, pequeñas, medianas (PYMES) y grandes.
