@@ -23,7 +23,7 @@ const FeatureImgContentSix = () => {
             <div className="app-two-feature-two-right">
               <div className="feature-content-wrap">
                 <h4 className="h6">Best Features</h4>
-                <h2>Boost up your Phone in just one click</h2>
+                <h2>k</h2>
                 <p>
                   Completely evolve orthogonal sources via cooperative data.
                   Dynamically promote high standards in resources after timely

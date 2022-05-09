@@ -16,15 +16,15 @@ const NotFoundPage = () => {
             <div className="col-lg-5 col-md-6">
               <div className="error-page-content-wrap">
                 <h2 className="error-404 text-warning">404</h2>
-                <h1 className="display-5 fw-bold">Page Not Found</h1>
-                <p className="lead">
+                <h1 className="display-5 fw-bold">Página no encontrada</h1>
+                {/* <p className="lead">
                   Efficiently reinvent next-generation scenarios without focused
                   networks. Collaboratively productize superior technology
                   before robust potentialities.{' '}
-                </p>
+                </p> */}
 
                 <Link href="/">
-                  <a className="btn btn-primary mt-4">Go Back Home</a>
+                  <a className="btn btn-primary mt-4">Regresar al inicio</a>
                 </Link>
               </div>
             </div>
@@ -75,11 +75,11 @@ const NotFoundPage = () => {
                   </li>
                 </ul>
 
-                <img
+                {/* <img
                   src="/hero-1.png"
                   alt="hero img"
                   className="img-fluid position-relative z-5"
-                />
+                /> */}
               </div>
             </div>
           </div>

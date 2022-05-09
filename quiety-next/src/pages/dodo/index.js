@@ -19,12 +19,12 @@ const AppLandingTwoHome = () => {
       <Navbar navDark />
       <HeroSectionEight />
       <FeatureFive />
-      <FeatureImgContentSix />
-      <FeatureImgContentSeven />
-      <CtaTwo />
-      <TestimonialThree />
-      <PromoWithVideo />
-      <CtaThree />
+      {/* <FeatureImgContentSix /> */}
+      {/* <FeatureImgContentSeven /> */}
+      {/* <CtaTwo /> */}
+      {/* <TestimonialThree /> */}
+      {/* <PromoWithVideo /> */}
+      {/* <CtaThree /> */}
       <Footer footerLight />
     </Layout>
   );

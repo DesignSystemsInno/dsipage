@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ImMobile } from 'react-icons/im';
 import { FiEdit } from 'react-icons/fi';
 import { BiExpand } from 'react-icons/bi';
+
 import { BsArrowRight, BsCloudArrowDown } from 'react-icons/bs';
 
 const FeatureFive = () => {
@@ -13,10 +14,9 @@ const FeatureFive = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-10">
               <div className="section-heading text-center">
-                <h2>Explore Premium Features</h2>
+                <h2>Diseña tu propio estilo.</h2>
                 <p>
-                  A bit of how is your father he nicked it charles daft plant
-                  lavator.
+                 ¿Que esperas para empezar?.
                 </p>
               </div>
             </div>
@@ -27,17 +27,16 @@ const FeatureFive = () => {
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="app-two-single-feature d-md-flex align-items-start mb-30">
                     <div className="app-two-single-feature-icon box-one me-3 mb-4 mb-md-0">
-                      <i className="far">
+                      {/* <i className="far">
                         <FiEdit />
-                      </i>
+                      </i> */}
                     </div>
                     <div className="app-two-single-feature-content">
-                      <h3 className="h5">Easy to Customized</h3>
+                      <h3 className="h5">1. Elige</h3>
                       <p>
-                        Authoritatively productize orthogonal networks rather
-                        than state of the art interfaces.
+                      En el marketplace de templates de proveedores puedes elegir la prenda que más te guste. 
                       </p>
-                      <Link href="/single-service">
+                      {/* <Link href="/single-service">
                         <a className="link-with-icon text-decoration-none">
                           {' '}
                           View Details{' '}
@@ -45,24 +44,23 @@ const FeatureFive = () => {
                             <BsArrowRight />
                           </i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="app-two-single-feature d-md-flex align-items-start mb-30">
                     <div className="app-two-single-feature-icon box-two me-3 mb-4 mb-md-0">
-                      <i className="far">
+                      {/* <i className="far">
                         <ImMobile />
-                      </i>
+                      </i> */}
                     </div>
                     <div className="app-two-single-feature-content">
-                      <h3 className="h5">Mobile App</h3>
+                      <h3 className="h5">2. Diseña</h3>
                       <p>
-                        Enthusiastically envisioneer integrated catalysts for
-                        change before fully researched vortals.
+                      Deja salir esa imaginación que tienes dentro y crea tu propia prenda. You can Dodo it. 
                       </p>
-                      <Link href="/single-service">
+                      {/* <Link href="/single-service">
                         <a className="link-with-icon text-decoration-none">
                           {' '}
                           View Details{' '}
@@ -70,55 +68,53 @@ const FeatureFive = () => {
                             <BsArrowRight />
                           </i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="app-two-single-feature d-md-flex align-items-start mb-30">
                     <div className="app-two-single-feature-icon box-three me-3 mb-4 mb-md-0">
-                      <i className="far">
+                      {/* <i className="far">
                         <BiExpand />
-                      </i>
+                      </i> */}
                     </div>
                     <div className="app-two-single-feature-content">
-                      <h3 className="h5">Expand your reach</h3>
+                      <h3 className="h5">3. Ordena</h3>
                       <p>
-                        Authoritatively syndicate focused ideas whereas
-                        revolutionary outsourcing.
+                      Haz que las cosas pasen, convierte lo digital a lo real, genere la orden de tu diseño y espere que te llegue a la puerta de tu casa. Dodo can do it for you.
                       </p>
-                      <Link href="/single-service">
+                      {/* <Link href="/single-service">
                         <a className="link-with-icon text-decoration-none">
                           View Details{' '}
                           <i className="far mb-1">
                             <BsArrowRight />
                           </i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="app-two-single-feature d-md-flex align-items-start mb-30">
                     <div className="app-two-single-feature-icon box-four me-3 mb-4 mb-md-0">
-                      <i className="far">
+                      {/* <i className="far">
                         <BsCloudArrowDown />
-                      </i>
+                      </i> */}
                     </div>
                     <div className="app-two-single-feature-content">
-                      <h3 className="h5">Free Download</h3>
+                      <h3 className="h5">4. Disfruta</h3>
                       <p>
-                        Rapidiously reintermediate plug-and-play potentialities
-                        via cross-unit e-markets.
+                      Luce tu estilo siendo diferente a lo tradicional.
                       </p>
-                      <Link href="/single-service">
+                      {/* <Link href="/single-service">
                         <a className="link-with-icon text-decoration-none">
                           View Details{' '}
                           <i className="far mb-1">
                             <BsArrowRight />
                           </i>
                         </a>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                 </div>

@@ -271,12 +271,12 @@ const navHome = [
   {
     title: 'HiWay',
     info: "Aplicación Móvil Transporte Público",
-    href: 'app-landing',
+    href: 'hiway',
   },
   {
     title: 'Dodo',
     info: 'E-Commerce Impresión Bajo Demanda',
-    href: '/',
+    href: 'dodo',
   },
   {
     title: 'IoT Pandas',
