@@ -32,7 +32,7 @@ const HeroSectionFive = () => {
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <Link href="/request-for-demo">
+                <Link href="https://play.google.com/store/apps/details?id=com.camilogalvis.hiway">
                   <a className="btn btn-primary me-3 mb-3">Descargar</a>
                 </Link>
                 <Link href="/contact-us">

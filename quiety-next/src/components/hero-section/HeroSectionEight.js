@@ -33,7 +33,7 @@ const HeroSectionEight = () => {
                 Muy pronto!.
               </p>
               <div className="action-btns mt-5">
-                <Link href="#">
+                <Link href="http://www.dodopl.com">
                   <a className="btn btn-outline-light">Empezar</a>
                 </Link>
                 {"   "}

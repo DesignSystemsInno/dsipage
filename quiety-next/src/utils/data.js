@@ -197,16 +197,16 @@ const footerPrimaryPages = [
   },
   {
     title: 'Nosotros',
-    href: '/',
+    href: '/#nosotros',
   },
   {
     title: 'Servicios',
-    href: '/',
+    href: '/#servicios',
   },
-  {
-    title: 'Precios',
-    href: '/',
-  },
+  // {
+  //   title: 'Precios',
+  //   href: '/',
+  // },
   {
     title: 'Companía',
     href: '/',

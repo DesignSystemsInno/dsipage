@@ -9,8 +9,8 @@ import { BsCodeSlash, BsTvFill } from 'react-icons/bs';
 const FeatureOne = () => {
   return (
     <>
-      <section className="feature-promo ptb-120 bg-light">
-        <div className="container">
+      <section className="feature-promo ptb-120 bg-light" id="servicios">
+        <div className="container" >
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
               <SectionTitle

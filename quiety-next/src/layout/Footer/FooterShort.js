@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaDribbble, FaFacebook, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaDribbble, FaFacebook, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const FooterShort = () => {
   return (
@@ -22,7 +22,7 @@ const FooterShort = () => {
             <div className="col-md-4 col-lg-4">
               <div className="footer-single-col text-start text-lg-end text-md-end">
                 <ul className="list-unstyled list-inline footer-social-list mb-0">
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <Link href="#">
                       <a>
                         <FaFacebook />
@@ -35,18 +35,25 @@ const FooterShort = () => {
                         <FaTwitter />
                       </a>
                     </Link>
-                  </li>
-                  <li className="list-inline-item">
+                  </li> */}
+                  {/* <li className="list-inline-item">
                     <Link href="#">
                       <a>
                         <FaDribbble />
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="list-inline-item">
-                    <Link href="#">
+                    <Link href="https://github.com/DesignSystemsInno">
                       <a>
                         <FaGithub />
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="list-inline-item">
+                    <Link href="https://instagram.com/designsystemsinno?igshid=YmMyMTA2M2Y=">
+                      <a>
+                        < FaInstagram />
                       </a>
                     </Link>
                   </li>

@@ -7,12 +7,12 @@ import { testimonialAuthor, testimonialOne } from '../../utils/data';
 
 const TestimonialOne = ({ darkBg }) => {
   return (
-    <section
+    <section id="nosotros"
       className={`customer-review-tab ptb-120 ${
         darkBg ? 'bg-gradient text-white' : 'bg-light'
       } position-relative z-2`}
     >
-      <div className="container">
+      <div className="container" >
         <div className="row justify-content-center align-content-center">
           <div className="col-md-10 col-lg-6">
             <div className="section-heading text-center">

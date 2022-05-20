@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-import { FaFacebook, FaGithub, FaDribbble, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaDribbble, FaTwitter, FaInstagram} from 'react-icons/fa';
 import HubspotForm from 'react-hubspot-form'
 import {
   footerPrimaryPages,
@@ -166,7 +166,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 <div className="col-md-4 col-lg-4">
                   <div className="footer-single-col text-start text-lg-end text-md-end">
                     <ul className="list-unstyled list-inline footer-social-list mb-0">
-                      <li className="list-inline-item">
+                      {/* <li className="list-inline-item">
                         <Link href="#">
                           <a>
                             <FaFacebook />
@@ -186,11 +186,18 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                             <FaDribbble />
                           </a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="list-inline-item">
-                        <Link href="#">
+                        <Link href="https://github.com/DesignSystemsInno">
                           <a>
                             <FaGithub />
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="list-inline-item">
+                        <Link href="https://instagram.com/designsystemsinno?igshid=YmMyMTA2M2Y=">
+                          <a>
+                            <FaInstagram />
                           </a>
                         </Link>
                       </li>

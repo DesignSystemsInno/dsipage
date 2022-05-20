@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaDribbble, FaFacebook, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaDribbble, FaFacebook, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const ComingSoon = () => {
   return (
@@ -42,20 +42,20 @@ const ComingSoon = () => {
 
               <div className="social-list-wrap mt-100">
                 <ul className="list-unstyled author-social-list social-bg-ts list-inline mb-0">
-                  <li className="list-inline-item">
+                  {/* <li className="list-inline-item">
                     <Link href="#">
                       <a>
                         <FaFacebook />
                       </a>
                     </Link>
-                  </li>
-                  <li className="list-inline-item">
+                  </li> */}
+                  {/* <li className="list-inline-item">
                     <Link href="#">
                       <a>
                         <FaTwitter />
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li className="list-inline-item">
                     <Link href="#">
                       <a>
@@ -64,9 +64,16 @@ const ComingSoon = () => {
                     </Link>
                   </li>
                   <li className="list-inline-item">
-                    <Link href="#">
+                    <Link href="https://github.com/DesignSystemsInno">
                       <a>
                         <FaGithub />
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="list-inline-item">
+                    <Link href="https://github.com/DesignSystemsInno">
+                      <a>
+                        <FaInstagram />
                       </a>
                     </Link>
                   </li>

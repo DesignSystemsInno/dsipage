@@ -83,12 +83,12 @@ const Navbar = ({ navDark }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/#nosotros">
                   <a className="nav-link">Nosotros</a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="/#servicios">
                   <a className="nav-link">Servicios</a>
                 </Link>
               </li>
