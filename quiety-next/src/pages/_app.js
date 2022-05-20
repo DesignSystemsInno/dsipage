@@ -31,6 +31,9 @@ function MyApp({ Component, pageProps }) {
         
       </Head>
       <Component {...pageProps} />
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21986855.js"></script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21986855.js"></script>
+
     </Fragment>
   );
 }

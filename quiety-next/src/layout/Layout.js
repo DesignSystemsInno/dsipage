@@ -7,7 +7,7 @@ const Layout = ({ children, title, desc, hasClass }) => {
       <Head>
         <title>
           {title
-            ? `Quiety | ${title}`
+            ? `DSI | ${title}`
             : 'Design Systems'}
         </title>
         {desc && <meta name="description" content={desc} />}

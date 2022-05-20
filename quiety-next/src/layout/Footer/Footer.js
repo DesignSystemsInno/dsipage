@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { FaFacebook, FaGithub, FaDribbble, FaTwitter } from 'react-icons/fa';
-
+import HubspotForm from 'react-hubspot-form'
 import {
   footerPrimaryPages,
   footerPages,
@@ -47,9 +47,18 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   <p>
                     Para más información, déjanos tu correo.
                   </p>
+                 
+           
 
                   <form className="newsletter-form position-relative d-block d-lg-flex d-md-flex">
-                    <input
+                  <HubspotForm
+                    portalId='21986855'
+                    formId='42486796-a95e-4347-8669-200efa4f344a'
+                    onSubmit={() => console.log('Submit!')}
+                    onReady={(form) => console.log('Form ready!')}
+                    loading={<div>Loading...</div>}
+                  />
+                     {/*<input
                       type="text"
                       className="input-newsletter form-control me-2"
                       placeholder="Enter your email"
@@ -62,8 +71,9 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       value="Subscribe"
                       data-wait="Please wait..."
                       className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
-                    />
-                  </form>
+                    />*/}
+                  </form> 
+
                 </div>
               </div>
               <div className="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">

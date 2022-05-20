@@ -281,7 +281,7 @@ const navHome = [
   {
     title: 'IoT Pandas',
     info: 'Software Inmuebles del Futuro',
-    href: '/',
+    href: 'https://www.iotpandaservices.com',
   },
   // {
   //   title: 'App Landing',
@@ -373,6 +373,16 @@ const navCompanyPage = [
     title: 'User Login',
     icon: <BiLogIn />,
     href: 'login',
+  },
+  {
+    title: 'Dodo formulario inversión',
+    icon: <BiLogIn />,
+    href: 'dodo-formulario-inversion',
+  },
+  {
+    title: 'Dodo reuniones',
+    icon: <BiLogIn />,
+    href: 'reuniones',
   },
   {
     title: 'User SignUp',

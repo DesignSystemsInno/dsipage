@@ -7,12 +7,10 @@ const WorkProcessFour = () => {
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-6">
             <div className="section-heading text-center">
-              <h4 className="h5 text-primary">Process</h4>
-              <h2>We Follow Our Work Process</h2>
+              <h4 className="h5 text-primary">Donde estamos</h4>
+              <h2>Diseña tu propio estilo</h2>
               <p>
-                Conveniently mesh cooperative services via magnetic outsourcing.
-                Dynamically grow functionalized value whereas accurate
-                e-commerce.{' '}
+              ¿Que esperas para empezar?.
               </p>
             </div>
           </div>
@@ -23,9 +21,9 @@ const WorkProcessFour = () => {
               <div className="process-icon border border-light bg-custom-light rounded-custom p-3">
                 <span className="h2 mb-0 text-primary fw-bold">1</span>
               </div>
-              <h3 className="h5">Research</h3>
+              <h3 className="h5">Elige</h3>
               <p className="mb-0">
-                Uniquely pursue compelling initiatives expanded.
+                En el marketplace de templates de proveedores puedes elegir la prenda que más te guste. 
               </p>
             </div>
           </div>
@@ -35,9 +33,9 @@ const WorkProcessFour = () => {
               <div className="process-icon border border-light bg-custom-light rounded-custom p-3">
                 <span className="h2 mb-0 text-primary fw-bold">2</span>
               </div>
-              <h3 className="h5">Designing</h3>
+              <h3 className="h5">Diseña</h3>
               <p className="mb-0">
-                Uniquely pursue compelling initiatives expanded.
+              Deja salir esa imaginación que tienes dentro y crea tu propia prenda. You can Dodo it. 
               </p>
             </div>
           </div>
@@ -47,9 +45,9 @@ const WorkProcessFour = () => {
               <div className="process-icon border border-light bg-custom-light rounded-custom p-3">
                 <span className="h2 mb-0 text-primary fw-bold">3</span>
               </div>
-              <h3 className="h5">Building</h3>
+              <h3 className="h5">Ordena</h3>
               <p className="mb-0">
-                Uniquely pursue compelling initiatives expanded.
+                Haz que las cosas pasen, convierte lo digital a lo real, genere la orden de tu diseño y espere en la puerta.
               </p>
             </div>
           </div>
@@ -59,13 +57,14 @@ const WorkProcessFour = () => {
               <div className="process-icon border border-light bg-custom-light rounded-custom p-3">
                 <span className="h2 mb-0 text-primary fw-bold">4</span>
               </div>
-              <h3 className="h5">Deliver</h3>
+              <h3 className="h5">Disfruta</h3>
               <p className="mb-0">
-                Uniquely pursue compelling initiatives expanded.
+                Luce tu estilo siendo diferente a lo tradicional.
               </p>
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );

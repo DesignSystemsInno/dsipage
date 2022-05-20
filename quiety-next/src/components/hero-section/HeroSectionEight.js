@@ -1,10 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { InlineWidget } from "react-calendly";
+
 
 const HeroSectionEight = () => {
   return (
     <section
+    
       className="hero-section ptb-120 bg-purple text-white"
       style={{
         background:
@@ -12,6 +15,7 @@ const HeroSectionEight = () => {
       }}
     >
       <div className="container">
+          
         <div className="row justify-content-xl-between align-items-center">
           <div className="col-lg-5 col-xl-5 col-xl-5 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
@@ -32,7 +36,12 @@ const HeroSectionEight = () => {
                 <Link href="#">
                   <a className="btn btn-outline-light">Empezar</a>
                 </Link>
+                {"   "}
+                <Link href="/dodo-formulario-inversion">
+                  <a className="btn btn-outline-light">Invertir en el proyecto</a>
+                </Link>
               </div>
+
             </div>
           </div>
           <Image
@@ -42,6 +51,7 @@ const HeroSectionEight = () => {
                 alt="app screen"
               />
         </div>
+        
       </div>
     </section>
   );

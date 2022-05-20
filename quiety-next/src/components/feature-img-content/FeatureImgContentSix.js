@@ -11,9 +11,9 @@ const FeatureImgContentSix = () => {
           <div className="col-lg-6 col-xl-6 col-md-12">
             <div className="app-two-feature-two-img">
               <Image
-                width={636}
-                height={643}
-                src="/app-two-feature-phone-with-shape.png"
+                width={1020}
+                height={626}
+                src="/man-dodo-diseño.png"
                 alt="feature"
                 className="img-fluid"
               />
@@ -22,15 +22,16 @@ const FeatureImgContentSix = () => {
           <div className="col-xl-5 col-lg-5">
             <div className="app-two-feature-two-right">
               <div className="feature-content-wrap">
-                <h4 className="h6">Best Features</h4>
-                <h2>k</h2>
+                <h4 className="h6"></h4>
+                <h2>Pero Dodo es más que elegir, diseñar, ordenar y disfrutar</h2>
                 <p>
-                  Completely evolve orthogonal sources via cooperative data.
-                  Dynamically promote high standards in resources after timely
-                  catalysts for alignments and visionary quality vectors.
+                  Nuestro propósito es hacer que los creativos 
+                  (Diseñadores, Artistas o cualquiera)  
+                  vendan productos con sus diseños sin tener que preocuparse 
+                  de la logística de gestionar una tienda física.
                 </p>
               </div>
-              <div className="app-two-feature-two-content">
+              {/* <div className="app-two-feature-two-content">
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4">
                   <li className="py-1">
                     <i>
@@ -74,12 +75,13 @@ const FeatureImgContentSix = () => {
                     <a className="btn app-two-btn">Learn About More</a>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
     </section>
+    
   );
 };
 

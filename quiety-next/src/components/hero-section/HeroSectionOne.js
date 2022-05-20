@@ -21,8 +21,8 @@ const HeroSectionOne = () => {
               A tu medida, para todo tipo de empresas: negocios locales, pequeñas, medianas (PYMES) y grandes.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
-                <Link href="/">
-                  <a className="btn btn-primary">Solicitar Información</a>
+                <Link href="/reuniones">
+                  <a className="btn btn-primary">Agendar reunión</a>
                 </Link>
                 {/* <VideoModal className="true" /> */}
               </div>

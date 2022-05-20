@@ -9,17 +9,21 @@ import PromoWithVideo from '@components/promo/PromoWithVideo';
 import TestimonialThree from '@components/testimonial/TestimonialThree';
 import HeroSectionEight from '@components/hero-section/HeroSectionEight';
 import FeatureImgContentSix from '@components/feature-img-content/FeatureImgContentSix';
+import FeatureImgContentNine from '@components/feature-img-content/FeatureImgContentNine';
 import FeatureImgContentSeven from '@components/feature-img-content/FeatureImgContentSeven';
+import WorkProcessFour from '@components/workprocess/WorkProcessFour';
+
 
 //this is for app landing two demo
 
 const AppLandingTwoHome = () => {
   return (
-    <Layout>
+    <Layout title="Dodo">
       <Navbar navDark />
       <HeroSectionEight />
-      <FeatureFive />
-      {/* <FeatureImgContentSix /> */}
+      <WorkProcessFour />
+      <FeatureImgContentSix />
+      <FeatureImgContentNine />
       {/* <FeatureImgContentSeven /> */}
       {/* <CtaTwo /> */}
       {/* <TestimonialThree /> */}

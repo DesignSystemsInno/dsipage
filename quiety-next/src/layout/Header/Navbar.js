@@ -126,11 +126,11 @@ const Navbar = ({ navDark }) => {
                 </div>
               </li>
 
-              <li>
+              {/* <li>
                 <Link href="/">
                   <a className="nav-link">Precios</a>
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"

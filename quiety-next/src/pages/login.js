@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '@layout/Layout';
-
+import HubspotForm from 'react-hubspot-form'
 
 const Login = () => {
   return (
-    <Layout title="Login" desc="This is login page">
+    <Layout title="dodo-formulario-inversion" desc="This is login page">
       <section
         className="sign-up-in-section bg-dark ptb-60"
         style={{
@@ -16,7 +16,7 @@ const Login = () => {
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-8 col-12">
-              <Link href="/">
+              {/* <Link href="/">
                 <a className="mb-5 d-xl-block d-lg-block text-center">
                   <Image
                     width={113}
@@ -26,15 +26,15 @@ const Login = () => {
                     className="img-fluid"
                   />
                 </a>
-              </Link>
+              </Link> */}
               <div className="register-wrap p-5 bg-light shadow rounded-custom">
-                <h1 className="h3">Nice to Seeing You Again</h1>
+                {/* <h1 className="h3">Nice to Seeing You Again</h1>
                 <p className="text-muted">
                   Please log in to access your account web-enabled methods of
                   innovative niches.
-                </p>
+                </p> */}
 
-                <div className="action-btns">
+                {/* <div className="action-btns">
                   <a
                     href="#"
                     className="btn google-btn bg-white shadow-sm mt-4 d-block d-flex align-items-center text-decoration-none justify-content-center"
@@ -53,8 +53,8 @@ const Login = () => {
                   <h6 className="position-absolute text-center divider-text bg-light mb-0">
                     Or
                   </h6>
-                </div>
-                <form action="#" className="mt-4 register-form">
+                </div> */}
+                {/* <form action="#" className="mt-4 register-form">
                   <div className="row">
                     <div className="col-sm-12">
                       <label htmlFor="email" className="mb-1">
@@ -105,7 +105,19 @@ const Login = () => {
                       <a className="text-decoration-none">Forgot password</a>
                     </Link>
                   </p>
-                </form>
+                </form> */}
+                <HubspotForm
+   portalId='21986855'
+   formId='3e147bc1-fc1a-4d3c-b24c-742baf2ca503'
+   onSubmit={() => console.log('Submit!')}
+   onReady={(form) => console.log('Form ready!')}
+   loading={<div>Loading...</div>}
+   />
+  
+  
+
+ 
+
               </div>
             </div>
           </div>
