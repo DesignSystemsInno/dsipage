@@ -14,9 +14,9 @@ import WorkProcessThree from '@components/workprocess/WorkProcessThree';
 
 //this is for app landing demo
 
-const AppLandingOne = () => {
+const AppLandingFour = () => {
   return (
-    <Layout title="Hiway">
+    <Layout title="Coway">
       <Navbar navDark />
       <HeroSectionFive />
       <FeatureFour />
@@ -32,4 +32,4 @@ const AppLandingOne = () => {
   );
 };
 
-export default AppLandingOne;
+export default AppLandingFour;

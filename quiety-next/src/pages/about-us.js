@@ -21,9 +21,9 @@ const AboutUs = () => {
       <FeatureImgContentTwo />
       <OurTeam />
       <TestimonialTwo />
-      <OurOffice />
-      <SupportOne className="true" />
-      <Footer footerLight />
+      {/* <OurOffice /> */}
+      {/* <SupportOne className="true" /> */}
+      <Footer />
     </Layout>
   );
 };

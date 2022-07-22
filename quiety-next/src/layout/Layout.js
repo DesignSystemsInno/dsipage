@@ -8,7 +8,7 @@ const Layout = ({ children, title, desc, hasClass }) => {
         <title>
           {title
             ? `DSI | ${title}`
-            : 'Design Systems'}
+            : 'Design Systems Inno'}
         </title>
         {desc && <meta name="description" content={desc} />}
         <link rel="icon" href="" />

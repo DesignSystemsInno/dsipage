@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import SectionTitle from '../common/SectionTitle';
-import { RiVideoAddFill } from 'react-icons/ri';
-import { BsCodeSlash, BsTvFill } from 'react-icons/bs';
+import { RiSettings4Fill, RiChatCheckLine } from 'react-icons/ri';
+import { BsCodeSlash, BsTvFill,  } from 'react-icons/bs';
 
 const FeatureOne = () => {
   return (
@@ -25,16 +25,13 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-primary">
-                  <BsCodeSlash className="text-white fa-2x" />
+                  <RiSettings4Fill className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">Soluciones de Desarrollo</h3>
+                  <h3 className="h5">Consultoría</h3>
                   <p>
-                    Soluciones de desarrollo web y aplicaciones móviles a la medida.
-                    Desde el concepto hasta el código, y desde el desarrollo
-                    hasta la implementación que mejorarán sus flujos de
-                    trabajo, ingresos y optimización de operaciones
-                    comerciales.  {' '}
+                  Brindamos asesoramiento estratégico sobre el uso, implementación 
+                  y mejora en tecnología para alcanzar sus objetivos.  {' '}
                   </p>
                 </div>
               </div>
@@ -42,13 +39,14 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-danger">
-                  <BsTvFill className="fa-2x text-white" />
+                  <RiChatCheckLine className="fa-2x text-white" />
                 </div>
                 <div className="feature-info-wrap">
-                  <h3 className="h5">E-Learning</h3>
+                  <h3 className="h5">Conceptualización</h3>
                   <p>
-                    Creamos contenido y diseñamos sus productos e-learning
-                    para la industria 4.0.
+                  Ofrecemos la conceptualización de diferentes productos 
+                  digitales para flexibilizar la ejecución y el desarrollo en los
+                  diferentes procesos.
                     {' '}
                   </p>
                 </div>
@@ -57,14 +55,13 @@ const FeatureOne = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature-promo p-lg-5 p-3 text-center mt-4">
                 <div className="feature-icon icon-center pb-5 rounded-custom bg-dark">
-                  <RiVideoAddFill className="fa-2x text-white" />
+                  <BsCodeSlash className="text-white fa-2x" />
                 </div>
                 <div className="feature-info-wrap">
-                    <h3 className="h5">Marketing Digital</h3>
+                    <h3 className="h5">Desarrollo</h3>
                     <p>
-                      Potenciamos sus campañas de marketing con la
-                      creación de servicios digitales de alta calidad, en distintos
-                      formatos y para todo tipo de clientes.
+                    Ofrecemos desarrollos de software, desde una página web hasta
+                    una aplicación móvil para dar soluciones a problemáticas planteadas.
                       {' '}
                     </p>
                 </div>

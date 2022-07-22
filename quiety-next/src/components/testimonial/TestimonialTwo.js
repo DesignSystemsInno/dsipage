@@ -54,21 +54,17 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
             <div className="col-md-10 col-lg-6">
               {dark ? (
                 <SectionTitle
-                  subtitle="Testimonial"
-                  title="What They Say About Us"
-                  description="Dynamically initiate market positioning total linkage with
-                  clicks-and-mortar technology compelling data for cutting-edge
-                  markets."
+                  subtitle="Equipo"
+                  title="Atributos De Nuestros Colaboradores"
+                  description="Una transición a la modernidad. Innovación con las herramientas más óptimas."
                   darkBg
                   centerAlign
                 />
               ) : (
                 <SectionTitle
-                  subtitle="Testimonial"
-                  title="What They Say About Us"
-                  description="Dynamically initiate market positioning total linkage with
-                clicks-and-mortar technology compelling data for cutting-edge
-                markets."
+                  subtitle="Equipo"
+                  title="Atributos De Nuestros Colaboradores"
+                  description="Una transición a la modernidad. Innovación con las herramientas más óptimas."
                   centerAlign
                 />
               )}
@@ -98,8 +94,8 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
                             width={60}
                             height={60}
                             src={data.authorImg}
-                            className="img-fluid rounded"
-                            alt="user"
+                            className="img-fluid rounded-custom shadow-lg"
+                            alt="testimonial author"
                           />
                           <div className="author-info ms-3">
                             <h6 className="mb-0">{data.authorName}</h6>

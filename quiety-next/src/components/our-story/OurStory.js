@@ -14,14 +14,15 @@ const OurStory = () => {
         <div className="row justify-content-between">
           <div className="col-lg-5 col-md-12 order-lg-1">
             <div className="section-heading sticky-sidebar">
-              <h4 className="h5 text-primary">Our Story</h4>
-              <h2>A Great Story Starts with a Friendly Team</h2>
-              <p>
-                Globally e-enable principle-centered e-business before dynamic
-                quality vectors cross-media materials before proactive
-                outsourcing leverage other is vertical technology leadership.{' '}
+              <h4 className="mb-3 h5 text-primary">Nuestra Historia.</h4>
+              <h2 className="mb-3">Una Historia Llena De Sueños & Ideas.</h2>
+              <p className="font-weight-bold text-dark">
+              DSI nace de un grupo de jóvenes, en su mayoría estudiantes de la 
+              Universidad EAFIT, que se unieron entorno a un mismo objetivo: compartir,
+              intercambiar y poner en practica todo el conocimiento y experiencia que 
+              habían adquirido durante sus carreras. {' '}
               </p>
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <h6 className="mb-3">We Are Awarded By-</h6>
                 <img
                   src="/awards-01.svg"
@@ -29,12 +30,12 @@ const OurStory = () => {
                   className="me-4 img-fluid"
                 />
                 <img src="/awards-02.svg" alt="awards" className="img-fluid" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-6 col-md-12 order-lg-0">
             <div className="story-grid-wrapper position-relative">
-              <ul className="position-absolute animate-element parallax-element shape-service d-none d-lg-block">
+              {/* <ul className="position-absolute animate-element parallax-element shape-service d-none d-lg-block">
                 <li className="layer" data-depth="0.02">
                   <Image
                     width={129}
@@ -53,35 +54,35 @@ const OurStory = () => {
                     className="img-fluid position-absolute color-shape-3"
                   />
                 </li>
-              </ul>
+              </ul> */}
 
               <div className="story-grid rounded-custom bg-dark overflow-hidden position-relative">
                 <div className="story-item bg-light border">
-                  <h3 className="display-5 fw-bold mb-1 text-success">550K+</h3>
-                  <h6 className="mb-0">Active Users</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-success">6</h3>
+                  <h6 className="mb-0">Miembros Del Equipo</h6>
                 </div>
                 <div className="story-item bg-white border">
-                  <h3 className="display-5 fw-bold mb-1 text-primary">250+</h3>
-                  <h6 className="mb-0">Team Members</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-primary">2 Años</h3>
+                  <h6 className="mb-0">De Experiencia</h6>
                 </div>
                 <div className="story-item bg-white border">
-                  <h3 className="display-5 fw-bold mb-1 text-dark">$20M+</h3>
-                  <h6 className="mb-0">Revenue Per/Year</h6>
+                  <h3 className="display-5 fw-bold mb-1 text-dark">6 Áreas</h3>
+                  <h6 className="mb-0">Destacadas</h6>
                 </div>
                 <div className="story-item bg-light border">
                   <h3 className="display-5 fw-bold mb-1 text-warning">
-                    8 Years
+                  4+ 
                   </h3>
-                  <h6 className="mb-0">In Business</h6>
+                  <h6 className="mb-0">Proyectos Completados </h6>
                 </div>
-                <div className="story-item bg-light border">
+                {/* <div className="story-item bg-light border">
                   <h3 className="display-5 fw-bold mb-1 text-danger">425+</h3>
                   <h6 className="mb-0">Clients Worldwide</h6>
                 </div>
                 <div className="story-item bg-white border">
                   <h3 className="display-5 fw-bold mb-1 text-primary">855+</h3>
                   <h6 className="mb-0">Projects Completed</h6>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

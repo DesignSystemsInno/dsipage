@@ -16,12 +16,11 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-6 col-md-12">
             <div className="section-heading">
-              <h4 className="h5 text-primary">Our Values</h4>
-              <h2>The Core Values that Drive Everything</h2>
+              <h4 className="h5 text-primary">Nuestros  Principios</h4>
+              <h2>La Esencia Que Mantiene En Marcha Los Propósitos de DSI</h2>
               <p>
-                Quickly incubate functional channels with multidisciplinary
-                architectures. Authoritatively fabricate formulate exceptional
-                innovation.
+                Adoptamos tres principios del mundo del DevOps 
+                para desarrollar soluciones más colaborativas.
               </p>
               <ul className="list-unstyled mt-5">
                 <li className="d-flex align-items-start mb-4">
@@ -31,10 +30,10 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Pixel Perfect Design</h3>
+                    <h3 className="h5">Acción Centrada En El Cliente.</h3>
                     <p>
-                      Progressively foster enterprise-wide systems whereas
-                      equity invested web-readiness harness installed.
+                      Ideamos, conceptualizamos, desarrollamos productos 
+                      que realmente resuelvan problemas de los cliente.
                     </p>
                   </div>
                 </li>
@@ -45,11 +44,10 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Unique &amp; Minimal Design</h3>
+                    <h3 className="h5">Mejora Continua</h3>
                     <p>
-                      Dramatically administrate progressive metrics without
-                      error-free globally simplify standardized engineer
-                      efficient strategic.
+                      Aceleramos la mejora de los productos & servicios, 
+                      porque entendemos el poder de la innovación constante.
                     </p>
                   </div>
                 </li>
@@ -60,11 +58,10 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Efficiency & Accountability</h3>
+                    <h3 className="h5">Trabajar Como Un Sólo Equipo</h3>
                     <p>
-                      Objectively transition prospective collaboration and
-                      idea-sharing without focused maintain focused niche
-                      markets niches.
+                      Unimos nuestro conocimiento y capacidades para trabajar 
+                      como una única célula que facilite la total colaboración.
                     </p>
                   </div>
                 </li>
@@ -76,21 +73,21 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
               <ul className="img-overlay-list list-unstyled position-absolute">
                 <li className="d-flex align-items-center bg-white rounded shadow-sm p-3">
                   <FaCheckCircle className="fas fa-2x me-2 text-primary mb-1" />
-                  <h6 className="mb-0">Create a Free Account</h6>
+                  <h6 className="mb-0">Ideas Significativas</h6>
                 </li>
                 <li className="d-flex align-items-center bg-white rounded shadow-sm p-3">
                   <FaCheckCircle className="fas fa-2x me-2 text-primary mb-1" />
-                  <h6 className="mb-0">Install Our Tracking Pixel</h6>
+                  <h6 className="mb-0">Resultados Claves</h6>
                 </li>
                 <li className="d-flex align-items-center bg-white rounded shadow-sm p-3">
                   <FaCheckCircle className="fas fa-2x me-2 text-primary mb-1" />
-                  <h6 className="mb-0">Start Tracking your Website</h6>
+                  <h6 className="mb-0">Métricas Aceptables</h6>
                 </li>
               </ul>
               <Image
                 width={493}
                 height={662}
-                src="/feature-img3.jpg"
+                src="/feature2-img3.png"
                 alt="feature image"
                 className="img-fluid rounded-custom"
               />

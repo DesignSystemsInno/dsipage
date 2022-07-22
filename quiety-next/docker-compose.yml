@@ -1,9 +1,0 @@
-version: '3.0'
-
-services:
-  dsi:
-    image: dspage:v1 
-    volumes:
-      - ./src:/app/src
-    ports:
-      - 3000:3000

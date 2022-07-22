@@ -64,39 +64,57 @@ const FaqOneData = [
 const TestimonialData = [
   {
     id: 1,
-    authorImg: '/testimonial/1.jpg',
-    authorName: 'Mr.Rupan Oberoi',
-    authorTitle: 'Founder and CEO at Amaara Herbs',
-    quoteTitle: 'The Best Template You Got to Have it!',
+    authorImg: '/testimonial/mateos.png',
+    authorName: 'Mateo Bolivar',
+    authorTitle: 'Front End Developer',
+    quoteTitle: 'Un equipo con muchas capacidades!',
     authorQuote:
-      'Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media than ethical',
+      'Aficionado a la programación, le gusta entender y recrear nuevas herramientas para la sociedad.',
   },
   {
     id: 2,
-    authorImg: '/testimonial/2.jpg',
-    authorName: 'Joan Dho',
-    authorTitle: 'Founder and CTO',
-    quoteTitle: 'Best Template for SAAS Company!',
+    authorImg: '/testimonial/ogazas.png',
+    authorName: 'Julián Ogaza',
+    authorTitle: 'Designer Product',
+    quoteTitle: 'Hay un sentimiento mezclado con visión.',
     authorQuote:
-      'Dynamically create innovative core competencies with effective best practices promote innovative infrastructures.',
+      'Diseñador con gusto por el detalle, la interacción con otras personas, culturas y entornos.',
   },
   {
     id: 3,
-    authorImg: '/testimonial/3.jpg',
-    authorName: 'Ranu Mondal',
-    authorTitle: 'Lead Developer',
-    quoteTitle: 'It is undeniably good!',
+    authorImg: '/testimonial/youngs.png',
+    authorName: 'Juan Young',
+    authorTitle: 'Security Software',
+    quoteTitle: 'Somos pioneros en nuevas estrategias!',
     authorQuote:
-      'Rapidiously supply client-centric e-markets and maintainable processes progressively engineer',
+      'Autodidacta por excelencia, con una amplia gama de conocimientos en desarrollo. La computación es su mayor pasión.',
   },
   {
     id: 4,
-    authorImg: '/testimonial/4.jpg',
-    authorName: 'Mr.Rupan Oberoi',
-    authorTitle: 'Founder and CEO at Amaara Herbs',
-    quoteTitle: 'The Best Template You Got to Have it!',
+    authorImg: '/testimonial/jairos.png',
+    authorName: 'Jairo Carvajal',
+    authorTitle: 'Founder | Software Engineer',
+    quoteTitle: 'Creemos en lo que hacemos!',
     authorQuote:
-      'Globally network long-term high-impact schemas vis-a-vis distinctive e-commerce cross-media than ethical',
+      'Le gusta innovar, diseñar, experimentar y crear soluciones tecnológicas que resuelvan problemas sociales.',
+  },
+  {
+    id: 5,
+    authorImg: '/testimonial/andress.png',
+    authorName: 'Julián Múnera',
+    authorTitle: 'Interaction Design',
+    quoteTitle: 'Creamos soluciones modernas.',
+    authorQuote:
+      'Es una persona con conocimientos en diseño, con una visión moderna e innata. ',
+  },
+  {
+    id: 6,
+    authorImg: '/testimonial/camilos.png',
+    authorName: 'Camilo Galvis',
+    authorTitle: 'Cofounder | Full Stack Developer',
+    quoteTitle: 'Existe una comunión innovadora!',
+    authorQuote:
+      'Es una persona dedicada a la objetividad, le gusta estudiar los sistemas y analizar la manera en que estos se pueden relacionar y transformar.',
   },
 ];
 
@@ -197,7 +215,7 @@ const footerPrimaryPages = [
   },
   {
     title: 'Nosotros',
-    href: '/#nosotros',
+    href: '/about-us',
   },
   {
     title: 'Servicios',
@@ -270,7 +288,7 @@ const footerTemplate = [
 const navHome = [
   {
     title: 'HiWay',
-    info: "Aplicación Móvil Transporte Público",
+    info: "App Móvil Transporte Público",
     href: 'hiway',
   },
   {
@@ -284,9 +302,9 @@ const navHome = [
     href: 'https://www.iotpandaservices.com',
   },
   // {
-  //   title: 'App Landing',
-  //   info: ' App and Software Landing',
-  //   href: 'app-landing',
+  //   title: 'CoWay',
+  //   info: 'App Móvil Para Ganadería',
+  //   href: 'coway',
   // },
   // {
   //   title: 'Software Application',
@@ -410,32 +428,32 @@ const navCompanyPage = [
 const testimonialAuthor = [
   {
     name: 'Camilo Galvis',
-    title: 'CEO | Web & Mobile Designer-Developer',
-    image: '/testimonial/camilo1.jpg',
+    title: 'Founder | Mobile Designer-Developer',
+    image: '/testimonial/camilo2.png',
     target: '#testimonial-tab-1',
   },
   {
     name: 'Jairo Carvajal',
-    title: 'CEO | Software Engineer',
-    image: '/testimonial/jairo1.jpg',
+    title: 'Founder | Software Engineer',
+    image: '/testimonial/jairo2.png',
     target: '#testimonial-tab-2',
   },
   {
     name: 'Felipe Oyuela',
     title: 'CEO | Project Management',
-    image: '/testimonial/felipe1.jpg',
+    image: '/testimonial/felipe2.png',
     target: '#testimonial-tab-3',
   },
   {
     name: 'Julian Ogaza',
     title: 'Product Design Engineer',
-    image: '/testimonial/julian.png',
+    image: '/testimonial/julian2.png',
     target: '#testimonial-tab-4',
   },
   {
     name: 'Juan M. Young',
     title: 'Security Software Developer',
-    image: '/testimonial/juan1.jpg',
+    image: '/testimonial/juan2.png',
     target: '#testimonial-tab-5',
   },
 ];
@@ -443,7 +461,7 @@ const testimonialAuthor = [
 const testimonialOne = [
   {
     name: 'Camilo Galvis',
-    title: 'CEO | Visual, Web & App Developer',
+    title: 'Founder | Visual, Web & App Developer',
     header: 'Tenemos una comunión innovadora!',
     description:
       'Es una persona dedicada a la objetividad, le gusta estudiar los sistemas y analizar la manera en que estos se pueden transformar. Ha desarrollado backend como frontend, aplicaciones web & móviles. Es el cofundador de HiWay.',
@@ -453,10 +471,10 @@ const testimonialOne = [
   },
   {
     name: 'Jairo Carvajal',
-    title: 'CEO | Software Engineer',
+    title: 'Founder | Software Engineer',
     header: 'Creemos en lo que hacemos!',
     description:
-    'Se caracteriza por ser una persona que escucha a los demás y convertirse en un agente solucionador de problemas utilizando el pensamiento crítico. Le gusta contribuir con el desarrollo de actividades grupales asumiendo con responsabilidad sus funciones. Dentro de sus principales habilidades se destacan la capacidad de crear, innovar, diseñar, proponer ideas en el ámbito de la tecnología para el desarrollo de soluciones a diferentes problemáticas.',    
+    'Se caracteriza por ser una persona que escucha a los demás y convertirse en un agente solucionador de problemas utilizando el pensamiento crítico. Le gusta contribuir con el desarrollo de actividades grupales asumiendo con responsabilidad sus funciones. Dentro de sus principales habilidades se destacan la capacidad de crear, innovar, diseñar, proponer ideas en el ámbito de la tecnología para el desarrollo de soluciones a diferentes problemáticas. Cofundador de Dodo y IoT Pandas.',    
     image: '/testimonial/jairo2.png',
     target: 'testimonial-tab-2',
   },
@@ -724,44 +742,70 @@ const integrationOneLeft = [
 //ourTeam data
 const ourTeam = [
   {
-    name: 'John Sullivan',
+    name: 'Mateo Bolivar',
     title: 'Front End Developer',
-    image: '/team/team-1.jpg',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658377868/DSIimages/Mateo_Bolivar_uvu13g.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658372733/DSIimages/Mateo_Bol%C3%ADvar_ctoucq.mp4',
+    project: 'github',
+    linkedin: 'https://www.linkedin.com/in/mateo-bolivar-8b3123206/',
+    twitter: 'https://twitter.com/ElTeo2002',
+    projectFiles: 'https://github.com/TheTGM',
+    facebook: 'https://www.facebook.com/people/Mateo-Bolivar/100009134829284/',
   },
   {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-2.jpg',
+    name: 'Julián Ogaza',
+    title: 'Designer Product',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658377870/DSIimages/Juli%C3%A1n_Ogaza_fuovis.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658372779/DSIimages/Juli%C3%A1n_Ogaza_1_yp5lgu.mp4',
+    project: 'behance',
+    linkedin: 'https://www.linkedin.com/in/julian-villanil-ogaza-vargas-7b020722b',
+    twitter: '',
+    projectFiles: '',
+    facebook: ''
   },
   {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-3.jpg',
+    name: 'Juan Young',
+    title: 'Security Software',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658377872/DSIimages/Juan_Manuel_Young_nzrelt.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658372811/DSIimages/Juan_Manuel_Young_3_c5w8qi.mp4',
+    project: 'github',
+    linkedin: 'https://www.linkedin.com/in/juan-manuel-young-hoyos/',
+    twitter: 'https://twitter.com/jmyounghoyos',
+    projectFiles: 'https://github.com/Youngermaster',
+    facebook: ''
   },
   {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-4.jpg',
+    name: 'Jairo Carvajal',
+    title: 'Founder | Software Engineer',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658377873/DSIimages/Jairo_Carvajal_vx8xqm.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658372835/DSIimages/Jairo_Alonso_2_r75pjb.mp4',
+    project: 'github',
+    linkedin: 'https://www.linkedin.com/in/jairo-carvajal-ochoa-246b3923a',
+    twitter: 'https://twitter.com/Jairo66908141?t=DakAn9zV4DSsbUqa3kRHMg&s=08',
+    projectFiles: 'https://github.com/jcarvajalo',
+    facebook: 'https://www.facebook.com/profile.php?id=100080496203497'
   },
   {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-5.jpg',
+    name: 'Camilo Galvis',
+    title: 'Cofounder | Full Stack Developer',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658377884/DSIimages/Camilo_Galvis_fjadpf.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658372936/DSIimages/Camilo_Galvis_h0gswi.mp4',
+    project: 'github',
+    linkedin: 'https://www.linkedin.com/in/camilo-galvis-5a6b93b8/',
+    twitter: 'https://twitter.com/cglv11',
+    projectFiles: 'https://github.com/cglv11',
+    facebook: 'https://www.facebook.com/camilo.galvis.9'
   },
   {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-6.jpg',
-  },
-  {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-7.jpg',
-  },
-  {
-    name: 'John Sullivan',
-    title: 'Front End Developer',
-    image: '/team/team-8.jpg',
+    name: 'Julián Múnera',
+    title: 'Interaction Design',
+    image: 'https://res.cloudinary.com/jairo/image/upload/v1658454899/DSIimages/Andr%C3%A9s_Juli%C3%A1n_M%C3%BAenra_l5d52f.jpg',
+    video: 'https://res.cloudinary.com/jairo/video/upload/v1658454896/DSIimages/Andr%C3%A9s_Juli%C3%A1n_M%C3%BAnera_lmve9p.mp4',
+    project: 'behance',
+    linkedin: 'https://www.linkedin.com/in/andr%C3%A9s-juli%C3%A1n-m%C3%BAnera-uribe-2095b5193/',
+    twitter: '',
+    projectFiles: 'https://www.behance.net/andresmunera2',
+    facebook: ''
   },
 ];
 

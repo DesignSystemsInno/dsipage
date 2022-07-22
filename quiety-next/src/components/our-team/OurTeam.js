@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter, FaBehance, FaBehanceSquare } from 'react-icons/fa';
 import { ourTeam } from '../../utils/data';
+import { Player } from 'video-react';
+import "node_modules/video-react/dist/video-react.css";
 
 const OurTeam = () => {
   return (
@@ -11,25 +13,28 @@ const OurTeam = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-12">
             <div className="section-heading text-center">
-              <h5 className="h6 text-primary">Our Team</h5>
-              <h2>The People Behind Quiety</h2>
+              <h5 className="h6 text-primary">Nuestro Equipo</h5>
+              <h2>Equipo Comprometido & Multidisciplinario</h2>
               <p>
-                Intrinsicly strategize cutting-edge before interoperable
-                applications incubate extensive expertise through integrated
-                intellectual capital.{' '}
+                Jóvenes apasionados, lideres, creativos, soñadores y lo más importante, comprometidos.{' '}
               </p>
             </div>
           </div>
         </div>
         <div className="row">
           {ourTeam.map((team, i) => (
-            <div key={i + 1} className="col-lg-3 col-md-6">
+            <div key={i + 1} className="col-lg-4 col-md-6">
               <div className="team-single-wrap mb-5">
                 <div className="team-img rounded-custom">
-                  <Image width={306} height={306} src={team.image} alt="team" />
+                  {/* <Image width={306} height={306} src={team.image} alt="team" /> */}
+                  <Player
+                    playsInline
+                    poster={team.image}
+                    src={team.video}
+                  />
                   <ul className="list-unstyled team-social-list d-flex flex-column mb-0">
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href={team.linkedin}>
                         <a>
                           <i className="fab">
                             <FaLinkedinIn />
@@ -38,7 +43,7 @@ const OurTeam = () => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href={team.twitter}>
                         <a>
                           <i className="fab">
                             <FaTwitter />
@@ -47,16 +52,24 @@ const OurTeam = () => {
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href={team.projectFiles}>
                         <a>
-                          <i className="fab">
-                            <FaGithub />
-                          </i>
+                          {
+                            (team.project === 'behance') 
+                              ?
+                              <i className="fab">
+                                <FaBehance />
+                              </i>
+                              :
+                              <i className="fab">
+                                <FaGithub />
+                              </i>
+                          }
                         </a>
                       </Link>
                     </li>
                     <li className="list-inline-item">
-                      <Link href="#!">
+                      <Link href={team.facebook}>
                         <a>
                           <i className="fab">
                             <FaFacebookF />

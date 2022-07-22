@@ -17,42 +17,33 @@ const FeatureImgContentOne = () => {
                     <BsShieldCheck />
                   </span>
                 </div>
-                <h2>Los productos digitales como siempre los soñaste.</h2>
+                <h2>Saber implementar las tecnologías es clave para garantizar el éxito.</h2>
                 <p>
-                Desde una pagina web informativa hasta una aplicación web con diferentes funcionalidades,
-                con el objetivo de mejorar la visibilidad y automatizar procesos dentro de su organización.
+                Encaminamos a las organizaciones acerca de la implementación de sistemas y tecnologías de la información 
+                adecuadas, para que el mejoramiento de procesos y resolución de problemas en sus negocios.
                 </p>
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Desarrollo bajo metodologías ágiles.
+                    Adopción  de CRMs.
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Interacción y colaboración personalizada con el cliente.
+                    Adopción de ERPs
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Desarrolladores dedicados tiempo completo.
+                    Integración de comercio electrónico.
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Equipo interdisciplinario con enfoques innovadores en temas de desarollo de software. 
+                    Herramientas de inventario. 
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Precios accesibles sin costos ocultos.
+                    SMS marketing.
                   </li>
                 </ul>
-                <a
-                  href="/"
-                  className="read-more-link text-decoration-none"
-                >
-                  Saber Más Sobre Nosotros{' '}
-                  <span className="far ms-2 mb-1">
-                    <FiArrowRight />
-                  </span>
-                </a>
               </div>
             </div>
             <div className="col-lg-6 col-12">
@@ -80,41 +71,35 @@ const FeatureImgContentOne = () => {
                     <FaHome />
                   </span>
                 </div>
-                <h2>Creamos la mejor experiencia para que sus usuarios
-                    se sientan como en casa.
+                <h2>¿Tienes alguna idea o proyecto? <br/> Te ayudamos a conceptualizarlo y ejecutarlo.
                 </h2>
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Diseño de arquitectura de software para sus aplicaciones.
+                    Procesos creativos.
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Programación Front-End.
+                    Desarrollamos MVP
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Creación de prototipos.
+                    Plasmamos las ideas
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    UX/UI. 
+                    Medimos
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Desarrolladores Full-Stack.
+                    Definimos objetivos
+                  </li>
+                  <li className="py-1">
+                    <FaCheckCircle className="fas me-2 text-primary mb-1" />
+                    Validamos
                   </li>
                 </ul>
 
-                <a
-                  href="/"
-                  className="read-more-link text-decoration-none d-block mt-4"
-                >
-                  Saber Más Sobre Nosotros{' '}
-                  <span className="far ms-2 mb-1">
-                    <FiArrowRight />
-                  </span>
-                </a>
               </div>
             </div>
             <div className="col-lg-6 col-12 order-lg-0">

@@ -45,7 +45,7 @@ const Navbar = ({ navDark }) => {
                 //   className="img-fluid logo-color"
                 // />
                 <div>
-                  <h3>Design Systems</h3>
+                  <h3>Design Systems Inno</h3>
                 </div>
                 ) : (
                 // <Image
@@ -56,7 +56,7 @@ const Navbar = ({ navDark }) => {
                 //   className="img-fluid logo-white"
                 // />
                 <div>
-                  <h3 className="nav-title">Design Systems</h3>
+                  <h3 className="nav-title">Design Systems Inno</h3>
                 </div>
               )}
             </a>
@@ -83,7 +83,7 @@ const Navbar = ({ navDark }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/#nosotros">
+                <Link href="/about-us">
                   <a className="nav-link">Nosotros</a>
                 </Link>
               </li>

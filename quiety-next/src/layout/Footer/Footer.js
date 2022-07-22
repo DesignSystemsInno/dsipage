@@ -158,7 +158,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                         href="https://themetags.com/"
                         className="text-decoration-none"
                       >
-                        Design Systems
+                        Design Systems Inno
                       </a>
                     </p>
                   </div>

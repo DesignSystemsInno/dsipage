@@ -107,17 +107,12 @@ const Login = () => {
                   </p>
                 </form> */}
                 <HubspotForm
-   portalId='21986855'
-   formId='3e147bc1-fc1a-4d3c-b24c-742baf2ca503'
-   onSubmit={() => console.log('Submit!')}
-   onReady={(form) => console.log('Form ready!')}
-   loading={<div>Loading...</div>}
-   />
-  
-  
-
- 
-
+                  portalId='21986855'
+                  formId='3e147bc1-fc1a-4d3c-b24c-742baf2ca503'
+                  onSubmit={() => console.log('Submit!')}
+                  onReady={(form) => console.log('Form ready!')}
+                  loading={<div>Loading...</div>}
+                />
               </div>
             </div>
           </div>
