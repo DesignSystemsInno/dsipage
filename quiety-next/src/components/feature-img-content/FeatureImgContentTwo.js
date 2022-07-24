@@ -17,7 +17,7 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
           <div className="col-lg-6 col-md-12">
             <div className="section-heading">
               <h4 className="h5 text-primary">Nuestros  Principios</h4>
-              <h2>La Esencia Que Mantiene En Marcha Nuestro Propósito</h2>
+              <h2>La Esencia Que Mantiene En Marcha Nuestro Propósito.</h2>
               <p>
                 Adoptamos tres principios del mundo del DevOps 
                 para desarrollar soluciones más colaborativas.
@@ -30,7 +30,7 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
                     </span>
                   </div>
                   <div className="icon-content">
-                    <h3 className="h5">Acción Centrada En El Cliente.</h3>
+                    <h3 className="h5">Acción Centrada En El Cliente</h3>
                     <p>
                       Ideamos, conceptualizamos, desarrollamos productos 
                       que realmente resuelvan problemas de los cliente.

@@ -215,7 +215,7 @@ const footerPrimaryPages = [
   },
   {
     title: 'Nosotros',
-    href: '/nosotros',
+    href: '/about-us',
   },
   {
     title: 'Servicios',
@@ -226,7 +226,7 @@ const footerPrimaryPages = [
   //   href: '/',
   // },
   {
-    title: 'Companía',
+    title: 'Proyectos',
     href: '/',
   },
 ];
@@ -772,9 +772,9 @@ const ourTeam = [
     video: 'https://res.cloudinary.com/jairo/video/upload/v1658372779/DSIimages/Juli%C3%A1n_Ogaza_1_yp5lgu.mp4',
     project: 'behance',
     linkedin: 'https://www.linkedin.com/in/julian-villanil-ogaza-vargas-7b020722b',
-    twitter: '',
-    projectFiles: '',
-    facebook: ''
+    twitter: '#!',
+    projectFiles: 'https://www.behance.net/ogaza_portfolio/',
+    facebook: '#!'
   },
   {
     name: 'Juan Young',
@@ -785,7 +785,7 @@ const ourTeam = [
     linkedin: 'https://www.linkedin.com/in/juan-manuel-young-hoyos/',
     twitter: 'https://twitter.com/jmyounghoyos',
     projectFiles: 'https://github.com/Youngermaster',
-    facebook: ''
+    facebook: '#!'
   },
   {
     name: 'Jairo Carvajal',
@@ -800,7 +800,7 @@ const ourTeam = [
   },
   {
     name: 'Camilo Galvis',
-    title: 'Cofounder | Full Stack Developer',
+    title: 'CoFounder | Full Stack Developer',
     image: 'https://res.cloudinary.com/jairo/image/upload/v1658377884/DSIimages/Camilo_Galvis_fjadpf.jpg',
     video: 'https://res.cloudinary.com/jairo/video/upload/v1658372936/DSIimages/Camilo_Galvis_h0gswi.mp4',
     project: 'github',
@@ -816,9 +816,9 @@ const ourTeam = [
     video: 'https://res.cloudinary.com/jairo/video/upload/v1658454896/DSIimages/Andr%C3%A9s_Juli%C3%A1n_M%C3%BAnera_lmve9p.mp4',
     project: 'behance',
     linkedin: 'https://www.linkedin.com/in/andr%C3%A9s-juli%C3%A1n-m%C3%BAnera-uribe-2095b5193/',
-    twitter: '',
+    twitter: '#!',
     projectFiles: 'https://www.behance.net/andresmunera2',
-    facebook: ''
+    facebook: '#!'
   },
 ];
 

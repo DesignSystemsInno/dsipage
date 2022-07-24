@@ -1,32 +1,16 @@
-# # pull official base image
-# FROM node:16-alpine
+FROM node:12
 
-# # set working directory
-# WORKDIR /app
+# set working directory
+WORKDIR /app
 
-# # add `/app/node_modules/.bin` to $PATH
-# ENV PATH /app/node_modules/.bin:$PATH
 
-# # install app dependencies
-# COPY package.json ./
-# RUN npm install --silent
-# RUN npm install react-scripts@3.4.1 -g --silent
+# install app dependencies
+COPY . ./
 
-# # add app
-# COPY . ./
 
-# # start app
-# CMD ["npm", "run", "dev"]
+RUN npm install 
 
-FROM node:alpine
+# add app
 
-#copy source 
-COPY . /app
 
-# Install deps 
-RUN cd /app &&  npm install 
-
-# Build 
-RUN npm run build
-
-ENTRYPOINT [ "npm", "run", "start" ]
+CMD ["npm", "start"]
