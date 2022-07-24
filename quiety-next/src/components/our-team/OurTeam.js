@@ -14,7 +14,7 @@ const OurTeam = () => {
           <div className="col-lg-6 col-md-12">
             <div className="section-heading text-center">
               <h5 className="h6 text-primary">Nuestro Equipo</h5>
-              <h2>Equipo Comprometido & Multidisciplinario</h2>
+              <h2>Equipo Visionario & Multidisciplinario</h2>
               <p>
                 Jóvenes apasionados, lideres, creativos, soñadores y lo más importante, comprometidos.{' '}
               </p>

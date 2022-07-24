@@ -15,7 +15,7 @@ const OurStory = () => {
           <div className="col-lg-5 col-md-12 order-lg-1">
             <div className="section-heading sticky-sidebar">
               <h4 className="mb-3 h5 text-primary">Nuestra Historia.</h4>
-              <h2 className="mb-3">Una Historia Llena De Sueños & Ideas.</h2>
+              <h2 className="mb-3">Una Historia Llena De Sueños E Ideas.</h2>
               <p className="font-weight-bold text-dark">
               DSI nace de un grupo de jóvenes, en su mayoría estudiantes de la 
               Universidad EAFIT, que se unieron entorno a un mismo objetivo: compartir,

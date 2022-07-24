@@ -9,15 +9,18 @@ const reuniones = () => {
   return (
     <Layout title="dodo-formulario-inversion" desc="This is login page">
       <section
-        className="sign-up-in-section"
+        className="sign-up-in-section bg-dark ptb-60"
+        style={{
+          background: "url('/page-header-bg.svg')no-repeat right bottom",
+        }}
       >
         <div className="container">
-          <Link href="/">
-                <a className="btn btn-primary">Regresar</a>
-          </Link>
         
           <InlineWidget url="https://calendly.com/dsinno/30min?month=2022-05" />
           
+          <Link href="/">
+            <a className="btn btn-primary">Regresar</a>
+          </Link>
         </div>
       </section>
     </Layout>
