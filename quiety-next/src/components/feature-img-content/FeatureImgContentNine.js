@@ -18,7 +18,7 @@ const FeatureImgContentSix = () => {
               </p>
               <p>
                 Estamos construyendo una plataforma 
-                donde nosotros nos encargamos de producir, empaquetar, 
+                donde  nos encargamos de producir, empaquetar, 
                 almacenar y enviar para que los creativos como vos, 
                 se centren en diseñar y vender de manera digital.
               </p>

@@ -5,15 +5,15 @@ import {
   BsTelephoneInbound,
 } from 'react-icons/bs';
 
-const ContactCard = () => {
+const PrivacyPoliticsCoway = () => {
   return (
     <section className="contact-promo ptb-120">
       <div className="container">
         <div className="row justify-content-center">
           <h2 className="justify-content-center text-center">Políticas de Privacidad</h2>
-          <h3 className="justify-content-center text-center">Última actualización: 08/04/2022{'\n'}
+          <h3 className="justify-content-center text-center">Última actualización: 23/07/2022{'\n'}
                     {'\n'}</h3>
-          <p> Bienvenido a HiWay. Nos comprometemos a proteger su
+                <p> Bienvenido a CoWay. Nos comprometemos a proteger su
                   privacidad. Esta política describe nuestras prácticas de
                   privacidad, la información personal que recopilamos, cómo la
                   usamos y compartimos, así como sus opciones y derechos con
@@ -22,11 +22,11 @@ const ContactCard = () => {
                   cumpliremos con las leyes locales en relación con todas las
                   prácticas descritas en esta política. Si hay una
                   inconsistencia entre esta política y la ley local, cumpliremos
-                  con la ley local en la medida de la inconsistencia. HiWay es
+                  con la ley local en la medida de la inconsistencia. CoWay es
                   proporcionado y controlado por la entidad indicada en los
                   Términos de Uso aplicables a su país de residencia. Esta
-                  política se aplica a todos los usuarios de HiWay, a cualquiera
-                  de las aplicaciones móviles de HiWay (" Aplicaciones ") y
+                  política se aplica a todos los usuarios de CoWay, a cualquiera
+                  de las aplicaciones móviles de CoWay (" Aplicaciones ") y
                   cualquier servicio que brindemos a través de la misma
                   Aplicación, así como cuando nos contacta por teléfono, correo
                   electrónico, correspondencia escrita, redes sociales, en
@@ -36,14 +36,12 @@ const ContactCard = () => {
                   comerciales, incluidos nuestros socios corporativos,
                   proveedores y subcontratistas, pero se aplica a nuestros
                   Controladores. En esta política, las personas que utilizan
-                  nuestros Servicios se denominan "Usuarios". Y las personas que
-                  brindan información sobre el transporte a los Usuarios se
-                  denominan " Empresas Administradoras". Los términos en
+                  nuestros Servicios se denominan "Usuarios" o "Empresa Ganadera". Los términos en
                   mayúscula que no están definidos en esta política tienen el
                   significado que se les otorga en los Términos de uso. Si
                   acepta los Términos de uso, acepta que tratemos su información
                   de la manera descrita en esta política. ¿Qué información
-                  recopilamos? Recopilamos tres categorías de información sobre
+                  recopilamos? Recopilamos una categoríaa de información sobre
                   usted: información que proporciona, información que
                   recopilamos automáticamente e información que obtenemos de
                   otras fuentes. No recopilamos ni procesamos información sobre
@@ -58,17 +56,14 @@ const ContactCard = () => {
                   teléfono, correo electrónico. Donde lo permita o lo exija la
                   ley, podemos recopilar números de contacto de emergencia.
                   {'\n'}
-                  Información de la empresa administradora, que puede incluir
+                  Información de la empresa ganadera, que puede incluir
                   datos de la empresa misma, como nombre, correo electrónico,
                   DNI, y teléfono. También, dentro del mismo software que les
-                  brindará a la empresa, se solicitará 3 categorías de
-                  información: 1. Asociados (Dueños de los vehículos):
-                  información como nombre, correo electrónico y teléfono. 2.
-                  Conductores: información como nombre, correo electrónico y
-                  teléfono. 3 Vehículos: Matrícula del vehículo, color que
-                  representa el vehículo dentro de la aplicación [Transporte
-                  público municipal (rojo) o transporte publico departamental
-                  (verde)] y ruta del vehículo. Cuando lo permita o lo exija la
+                  brindará a la empresa, se solicitará 2 categorías de
+                  información: 1. Fincas (Para registrar los bovinos):
+                  información como nombre, hectáreas, ubicación, tipo de terreno y capacidad. 
+                  2 Bovinos: Identificación del bovino, nombre, raza, género (M/H) y color. 
+                  Cuando lo permita o lo exija la
                   ley, podemos realizar una verificación de identidad y/o
                   verificación de antecedentes. Esto puede requerir recopilar y
                   procesar información como fotografía de la empresa, datos del
@@ -76,27 +71,19 @@ const ContactCard = () => {
                   ser procesada por proveedores en nuestro nombre.{'\n'}
                   Información que recopilamos automáticamente{'\n'}
                   Información sobre la ubicación. Recopilamos datos de ubicación
-                  de los Usuarios para habilitar el uso del mapa, para brindar
+                  de los Bovinos y Ganaderos para habilitar el uso del mapa, para brindar
                   asistencia al usuario (en caso de ser necesario), con fines de
                   seguridad y detección de fraudes, y para cumplir con los
                   requisitos legales. Recopilamos información de ubicación
                   (incluidas las coordenadas de GPS y los datos de WiFi) en
                   función de la configuración de su aplicación, los permisos del
-                  dispositivo y si está utilizando la aplicación como usuario,
-                  empresa administradora, y conductor (cuando corresponda):
-                  {'\n'}- Usuarios y Empresas Administradoras: recopilamos la
+                  dispositivo y si está utilizando la aplicación como
+                  empresa ganadera:
+                  {'\n'}-Empresas ganaderas: recopilamos la
                   ubicación precisa de su dispositivo cuando la aplicación se
-                  ejecuta en primer plano (aplicación abierta y en pantalla) y
-                  cuando la aplicación se ejecuta en segundo plano (aplicación
-                  abierta pero no en pantalla) desde el momento en que hace uso
-                  de la misma.{'\n'}- Conductores: recopilamos la ubicación
-                  precisa de su dispositivo cuando la aplicación se ejecuta en
-                  primer plano (aplicación abierta y en pantalla) y cuando la
-                  aplicación se ejecuta en segundo plano (aplicación abierta
-                  pero no en pantalla) en el modo de controlador. También
-                  podemos recopilar la ubicación precisa durante un tiempo
-                  limitado después de que salga del modo de conductor para
-                  detectar e investigar incidentes de viaje.{'\n'}
+                  ejecuta en primer plano (aplicación abierta y en pantalla) 
+                  desde el momento en que hace uso
+                  de la misma.{'\n'}
                   Información de uso. Recopilamos datos sobre su uso de nuestros
                   Servicios. Esto puede incluir datos tales como fechas y horas
                   de acceso, características de la aplicación o páginas
@@ -105,8 +92,7 @@ const ContactCard = () => {
                   fines de marketing relacionados con sitios de terceros que
                   haya visitado o servicios que haya utilizado antes de
                   interactuar con nuestros Servicios.{'\n'}
-                  Información que obtenemos de otras fuentes{'\n'}
-                  Servicios de terceros. Podemos recibir la información sobre
+                  Podemos recibir la información sobre
                   los Usuarios de nuestros proveedores de servicios, que
                   incluyen proveedores de verificación de antecedentes y
                   verificación de identidad, socios de seguros, proveedores de
@@ -139,7 +125,7 @@ const ContactCard = () => {
                   <p>1. Para permitirle utilizar nuestros Servicios{'\n'}- crear y
                   mantener su cuenta, configuraciones y preferencias;{'\n'}-
                   Verifica tu identidad;{'\n'}- habilitar los servicios de
-                  transporte, u otros servicios, según sea el caso;{'\n'}-
+                  acompañamiento, u otros servicios, según sea el caso;{'\n'}-
                   proporcionar soporte al usuario;{'\n'}- enviar comunicaciones
                   no comerciales sobre el Servicio;{'\n'}- mantener la
                   accesibilidad, seguridad y estabilidad de nuestra aplicación,
@@ -148,21 +134,21 @@ const ContactCard = () => {
                   relacionados con nuestros Servicios y su uso de nuestros
                   Servicios.{'\n'}
                   2. Para mantener y mejorar la seguridad de nuestros Servicios
-                  y Usuarios de HiWay{'\n'}- prevenir, detectar y combatir el
+                  y Usuarios de CoWay{'\n'}- prevenir, detectar y combatir el
                   fraude, el comportamiento inseguro o ilegal y las infracciones
                   de nuestras políticas y normas;{'\n'}- autenticar Usuarios;
-                  {'\n'}- verificar que las Empresas Administradoras y sus
+                  {'\n'}- verificar que las Empresas ganaderas y sus
                   vehículos cumplan con la legibilidad de los datos, por
                   seguridad de cara al usuario;{'\n'}- proteger la información
-                  personal, los derechos y los intereses legítimos de HiWay y
+                  personal, los derechos y los intereses legítimos de CoWay y
                   nuestros Usuarios;{'\n'}- investigar y resolver incidentes,
                   accidentes y reclamaciones de seguros.{'\n'}
                   3. Para mejorar las características y productos existentes y
                   desarrollar nuevos{'\n'}- realizar pruebas, investigación,
                   análisis, desarrollo y aprendizaje automático para mejorar su
-                  experiencia con HiWay;{'\n'}- desarrollar nuevos productos,
+                  experiencia con CoWay;{'\n'}- desarrollar nuevos productos,
                   características y servicios.{'\n'}
-                  4. Para promocionar HiWay y nuestros Servicios{'\n'}- enviarle
+                  4. Para promocionar CoWay y nuestros Servicios{'\n'}- enviarle
                   correos electrónicos de marketing, mensajes de texto,
                   notificaciones automáticas, comunicaciones en la aplicación y
                   anuncios;{'\n'}- brindarle experiencias, contenido y
@@ -180,15 +166,13 @@ const ContactCard = () => {
                   {'\n'}
                   6. Toma de decisiones automatizada. Usamos información
                   personal para tomar decisiones automatizadas relacionadas con
-                  su uso de nuestros Servicios:{'\n'}- conectar Conductores y
+                  su uso de nuestros Servicios:{'\n'}- conectar CoWay y
                   Usuarios (u otros tipos de Usuarios, según sea el caso), en
                   función de factores como la disponibilidad y la proximidad;
                   {'\n'}- determinar las calificaciones de los usuarios y
                   desactivar usuarios con calificaciones bajas;{'\n'}- marcar a
                   los Usuarios que se identifiquen como involucrados en
-                  actividades fraudulentas, inseguras o dañinas;{'\n'}-
-                  recomendar un precio promedio de un viaje, basado en factores
-                  como la distancia, la ubicación y el tiempo.{'\n'}
+                  actividades fraudulentas, inseguras o dañinas.{'\n'}
                   Cuando lo exija la ley, las acciones basadas en dicho
                   procesamiento ocurren solo después de la revisión humana y/o
                   la posibilidad de apelar.{'\n'}
@@ -197,17 +181,17 @@ const ContactCard = () => {
                   su información personal. En esta sección, describimos cuándo y
                   con quién podemos compartir la información que recopilamos.
                   {'\n'}
-                  Con otros Usuarios{'\n'}
-                  Compartimos cierta información sobre los vehículos y
-                  conductores en tiempo real, para permitir la visibilidad a los
+                  Con la misma empresa ganadera{'\n'}
+                  Compartimos cierta información sobre los bovinos y
+                  en tiempo real, para permitir la visibilidad a los
                   usuarios en la aplicación. Esto incluye compartir: Ubicación
-                  en vivo (siempre y cuando el conductor inicio y fin de ruta),
-                  ruta y matrícula del vehículo.{'\n'}</p>
+                  en vivo (siempre y cuando se active el GPS),
+                  nombre e identifiación del ganado.{'\n'}</p>
                   <h3 className="justify-content-center text-center">Con proveedores de servicios{'\n'}</h3>
                   <h4 className="justify-content-center text-center">Podemos compartir su información personal con nuestros
                     proveedores de servicios para fines comerciales, que
                     incluyen:{'\n'}</h4>
-                  <p>- soporte técnico y de usuario;{'\n'}- verificaciones de
+                  <p>- - soporte técnico y de usuario;{'\n'}- verificaciones de
                   antecedentes y verificación de identidad;{'\n'}-
                   almacenamiento en la nube;{'\n'}- entrega de contenido,
                   mensajería en la aplicación, llamadas en la aplicación,
@@ -217,12 +201,7 @@ const ContactCard = () => {
                   profesionales;{'\n'}- Google, en relación con el uso de Google
                   Maps en la aplicación (consulte la política de privacidad de
                   Google para obtener información sobre su recopilación y uso de
-                  datos);{'\n'}- empresas de redes sociales, incluido Facebook,
-                  en relación con nuestro uso de sus herramientas en la
-                  Aplicación y los sitios web, si opta por utilizar estos
-                  servicios (consulte las políticas de privacidad de Facebook
-                  para obtener información sobre su recopilación y uso de
-                  datos);{'\n'}
+                  datos).{'\n'}
                   {'\n'}</p>
                   <h3 className="justify-content-center text-center">Dentro del grupo empresarial{'\n'}</h3>
                   <p>Podemos compartir toda la información que recopilamos con una
@@ -246,7 +225,7 @@ const ContactCard = () => {
                   órdenes judiciales, solicitudes de aplicación de la ley,
                   reclamaciones legales o consultas gubernamentales;{'\n'}- para
                   proteger y defender los derechos, intereses, seguridad y
-                  protección de HiWay, nuestros Usuarios o el público;{'\n'}-
+                  protección de CoWay, nuestros Usuarios o el público;{'\n'}-
                   para cumplir con los requisitos de licencia o permiso y
                   cualquier ley y reglamento aplicable.{'\n'}
                   {'\n'}</p>
@@ -262,7 +241,7 @@ const ContactCard = () => {
                   actualizar cierta información de perfil y otra información que
                   haya elegido proporcionarnos, ya sea en la configuración de su
                   cuenta o comunicándose con el servicio de atención al usuario
-                  en companyhiway@gmail.com .{'\n'}
+                  en desingsystem2020@gmail.com.{'\n'}
                   Compartir información de ubicación. Su dispositivo puede tener
                   controles que determinen qué información recopilamos o cómo
                   podemos usar esa información. Por ejemplo, puede evitar que su
@@ -274,8 +253,7 @@ const ContactCard = () => {
                   por no recibir notificaciones automáticas a través de la
                   configuración de su dispositivo. Tenga en cuenta que optar por
                   no recibir notificaciones automáticas puede afectar su uso de
-                  la aplicación (como recibir una notificación de que llegó su
-                  viaje).{'\n'}
+                  la aplicación (como recibir una notificación que sucedió algo con un bovino).{'\n'}
                   Darse de baja de correos electrónicos y mensajes SMS de
                   marketing. Puede optar por no recibir correos electrónicos y
                   mensajes SMS de marketing utilizando el enlace o mecanismo
@@ -283,7 +261,7 @@ const ContactCard = () => {
                   electrónicos y mensajes SMS.{'\n'}
                   Eliminación de tu cuenta. Puede eliminar su cuenta a través de
                   la configuración de la aplicación o poniéndose en contacto con
-                  el servicio de atención al usuario en companyhiway@gmail.com.
+                  el servicio de atención al usuario en desingsystem2020@gmail.com.
                   Es posible que se le solicite que verifique su cuenta e
                   identidad. En algunos casos, no podremos eliminar su cuenta o
                   podemos retener cierta información para fines comerciales
@@ -303,7 +281,7 @@ const ContactCard = () => {
                   de responder cualquier pregunta que pueda tener sobre esta
                   política o sobre cómo tratamos su información, o si desea
                   presentar una queja sobre cómo hemos manejado su información
-                  personal. Por favor, contáctenos en companyhiway@gmail.com.
+                  personal. Por favor, contáctenos en desingsystem2020@gmail.com.
                   Responderemos a su solicitud de acuerdo con la ley aplicable y
                   sujeto a la verificación adecuada de su cuenta e identidad.
                   {'\n'}
@@ -312,7 +290,7 @@ const ContactCard = () => {
                   para brindarle nuestros Servicios y para los demás fines
                   establecidos en esta política.{'\n'}
                   Los períodos de retención serán diferentes según el tipo de
-                  información, los Usuario y Empresas Administradoras a quien se
+                  información, las empresas ganaderas a quien se
                   relaciona la información, y los fines para los que la usamos.
                   {'\n'}
                   Cuando procesamos su información para brindarle el Servicio,
@@ -326,7 +304,7 @@ const ContactCard = () => {
                   su cuenta. Conservamos la información referencial, como rutas,
                   matriculas, ubicaciones, durante el período de tiempo
                   necesario para cumplir con las obligaciones fiscales. Si viola
-                  los Términos de uso o las reglas de HiWay, podemos conservar
+                  los Términos de uso o las reglas de CoWay, podemos conservar
                   su información durante el tiempo que sea necesario para
                   investigar y resolver la violación. También conservamos
                   información con el fin de responder a cualquier reclamo legal
@@ -353,7 +331,7 @@ const ContactCard = () => {
                   haremos todos los esfuerzos razonables para asegurarnos de no
                   usar o divulgar esa información y eliminar estos datos. Si
                   cree que un niño nos ha proporcionado información personal,
-                  contáctenos en companyhiway@gmail.com .{'\n'}
+                  contáctenos en desingsystem2020@gmail.com.{'\n'}
                   Monitoreo telefónico. Como parte de nuestra práctica de
                   garantía de servicio al usuario, las conversaciones
                   telefónicas pueden monitorearse o grabarse como parte de las
@@ -412,16 +390,16 @@ const ContactCard = () => {
                   Le recomendamos que revise periódicamente esta página para
                   mantenerse informado sobre nuestras prácticas de privacidad.
                   {'\n'}
-                  Cuando utiliza HiWay, acepta los términos más recientes de
+                  Cuando utiliza CoWay, acepta los términos más recientes de
                   esta política.{'\n'}
                   {'\n'}</p>
                   <h3 className="justify-content-center text-center">Contacto</h3>
                   <p className="justify-content-center text-center">Las preguntas, comentarios y solicitudes con respecto a esta
-                  política deben dirigirse a: companyhiway@gmail.com.</p>
+                  política deben dirigirse a: desingsystem2020@gmail.com</p>
         </div>
       </div>
     </section>
   );
 };
 
-export default ContactCard;
+export default PrivacyPoliticsCoway;

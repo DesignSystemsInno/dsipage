@@ -14,7 +14,7 @@ const FeatureOne = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
               <SectionTitle
-                title="Soluciones Integrales Para La Nueva Era Digital"
+                title="Servicios Para La Nueva Era Digital"
                 description="Estamos a la vanguardia del desarrollo de software."
                 centerAlign
               />
@@ -30,8 +30,7 @@ const FeatureOne = () => {
                 <div className="feature-info-wrap">
                   <h3 className="h5">Consultoría</h3>
                   <p>
-                  Brindamos asesoramiento estratégico sobre el uso, implementación 
-                  y mejora en tecnología para alcanzar sus objetivos.  {' '}
+                    Ofrecemos asesoramiento estratégico sobre el uso, implementación y mejora  de la tecnología para alcanzar objetivos.{' '}
                   </p>
                 </div>
               </div>
@@ -44,9 +43,8 @@ const FeatureOne = () => {
                 <div className="feature-info-wrap">
                   <h3 className="h5">Conceptualización</h3>
                   <p>
-                  Ofrecemos la conceptualización de diferentes productos 
-                  digitales para flexibilizar la ejecución y el desarrollo en los
-                  diferentes procesos.
+                    Ofrecemos la conceptualización de diferentes productos 
+                    digitales para flexibilizar la ejecución y el desarrollo de los mismos.
                     {' '}
                   </p>
                 </div>

@@ -4,7 +4,7 @@ import { FaHands, FaShieldAlt, FaRegClock } from 'react-icons/fa';
 
 import SectionTitle from '../common/SectionTitle';
 
-const FeatureFour = () => {
+const FeatureSix = () => {
   return (
     <>
       <section className="feature-section ptb-120">
@@ -13,11 +13,10 @@ const FeatureFour = () => {
             <div className="col-lg-6 col-md-12">
               <SectionTitle
                 subtitle="Aplicación móvil"
-                title="App de movilidad para el transporte público"
-                description="HiWay, es una aplicación móvil que brinda un panorama general de los vehículos de TP (transporte público) en tiempo real;
-                es decir, los usuarios podrán experimentar los movimientos en vivo de cada vehículo (bus, colectivo o metro), 
-                como así mismo podrán compartir su ubicación a las empresas que brindan estos servicios. De esta manera, 
-                se busca ahorrar el tiempo de cada persona & brindar más seguridad a la población en términos de espera."
+                title="App de monitoreo para la ganadería"
+                description="CoWay, es una aplicación móvil que te brinda un panorama general de los bovinos en tus rebaños, en tiempo real;
+                es decir, los ganaderos podrán advertir los movimientos en vivo de cada bovino. De esta manera, se busca
+                darle visibilidad & brindar una mejor experiencia a la comunidad ganadera."
                 centerAlign
               />
             </div>
@@ -37,9 +36,8 @@ const FeatureFour = () => {
                   </div>
                   <h3 className="h5">Seguridad</h3>
                   <p className="mb-0">
-                    La aplicación se identifica con las 
-                    personas que en determinadas horas del día, especialmente en la madruga y en altas horas de la noche, se establecen a la espera
-                    de tomar su ruta de transporte.
+                    La aplicación podrá servir para advertir movimientos impropios de la ubicación de los bovinos,
+                    y así servir como referencia en primera instancia.
                   </p>
                 </div>
 
@@ -62,8 +60,8 @@ const FeatureFour = () => {
                   </div>
                   <h3 className="h5">Tranquilidad</h3>
                   <p className="mb-0">
-                    El tiempo de espera ya no será una limitación, para aquellos usuarios que en sus actividades diarias,
-                    toman el transporte público.
+                    Ya no será una limitante el tener que recorrer un terreno 
+                    entero con grandes dimensiones para encontrar un ganado en particular.
                   </p>
                 </div>
               </div>
@@ -82,7 +80,7 @@ const FeatureFour = () => {
                   </div>
                   <h3 className="h5">Facilidad</h3>
                   <p className="mb-0">
-                    La aplicación tiene un diseño amigable, por lo tanto, podrá ser usada desde jovenes hasta adultos mayores. 
+                    La aplicación tiene un diseño amigable, por lo tanto, podrá ser usada sin dificultades. 
                   </p>
                 </div>
 
@@ -98,4 +96,4 @@ const FeatureFour = () => {
   );
 };
 
-export default FeatureFour;
+export default FeatureSix;

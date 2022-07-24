@@ -64,15 +64,6 @@ const FaqOneData = [
 const TestimonialData = [
   {
     id: 1,
-    authorImg: '/testimonial/mateos.png',
-    authorName: 'Mateo Bolivar',
-    authorTitle: 'Front End Developer',
-    quoteTitle: 'Un equipo con muchas capacidades!',
-    authorQuote:
-      'Aficionado a la programación, le gusta entender y recrear nuevas herramientas para la sociedad.',
-  },
-  {
-    id: 2,
     authorImg: '/testimonial/ogazas.png',
     authorName: 'Julián Ogaza',
     authorTitle: 'Designer Product',
@@ -81,7 +72,7 @@ const TestimonialData = [
       'Diseñador con gusto por el detalle, la interacción con otras personas, culturas y entornos.',
   },
   {
-    id: 3,
+    id: 2,
     authorImg: '/testimonial/youngs.png',
     authorName: 'Juan Young',
     authorTitle: 'Security Software',
@@ -90,7 +81,7 @@ const TestimonialData = [
       'Autodidacta por excelencia, con una amplia gama de conocimientos en desarrollo. La computación es su mayor pasión.',
   },
   {
-    id: 4,
+    id: 3,
     authorImg: '/testimonial/jairos.png',
     authorName: 'Jairo Carvajal',
     authorTitle: 'Founder | Software Engineer',
@@ -99,7 +90,7 @@ const TestimonialData = [
       'Le gusta innovar, diseñar, experimentar y crear soluciones tecnológicas que resuelvan problemas sociales.',
   },
   {
-    id: 5,
+    id: 4,
     authorImg: '/testimonial/andress.png',
     authorName: 'Julián Múnera',
     authorTitle: 'Interaction Design',
@@ -108,13 +99,22 @@ const TestimonialData = [
       'Es una persona con conocimientos en diseño, con una visión moderna e innata. ',
   },
   {
-    id: 6,
+    id: 5,
     authorImg: '/testimonial/camilos.png',
     authorName: 'Camilo Galvis',
     authorTitle: 'Cofounder | Full Stack Developer',
-    quoteTitle: 'Existe una comunión innovadora!',
+    quoteTitle: 'Existe una comunidad de gente innovadora!',
     authorQuote:
       'Es una persona dedicada a la objetividad, le gusta estudiar los sistemas y analizar la manera en que estos se pueden relacionar y transformar.',
+  },
+  {
+    id: 6,
+    authorImg: '/testimonial/mateos.png',
+    authorName: 'Mateo Bolivar',
+    authorTitle: 'Front End Developer',
+    quoteTitle: 'Somos un equipo con muchas capacidades.',
+    authorQuote:
+      'Aficionado a la programación, le gusta entender y recrear nuevas herramientas para la sociedad.',
   },
 ];
 
@@ -215,7 +215,7 @@ const footerPrimaryPages = [
   },
   {
     title: 'Nosotros',
-    href: '/about-us',
+    href: '/nosotros',
   },
   {
     title: 'Servicios',
@@ -245,8 +245,12 @@ const footerPages = [
     href: '/blog-single',
   },
   {
-    title: 'Contact',
-    href: '/contact-us',
+    title: 'Politics HiWay',
+    href: '/politics-hiway',
+  },
+  {
+    title: 'Politics CoWay',
+    href: '/politics-coway',
   },
   {
     title: 'Career Single',
@@ -259,8 +263,12 @@ const footerPages = [
 ];
 const footerTemplate = [
   {
-    title: 'Contact',
-    href: '/contact-us',
+    title: 'Politics HiWay',
+    href: '/politics-hiway',
+  },
+  {
+    title: 'Politics CoWay',
+    href: '/politics-coway',
   },
   {
     title: 'Support',
@@ -301,11 +309,11 @@ const navHome = [
     info: 'Software Inmuebles del Futuro',
     href: 'https://www.iotpandaservices.com',
   },
-  // {
-  //   title: 'CoWay',
-  //   info: 'App Móvil Para Ganadería',
-  //   href: 'coway',
-  // },
+  {
+    title: 'CoWay',
+    info: 'App Móvil Para Ganadería',
+    href: 'coway',
+  },
   // {
   //   title: 'Software Application',
   //   info: 'IT solutions and SaaS Application',
@@ -330,9 +338,14 @@ const navHome = [
 
 const navCompanyLinks = [
   {
-    title: 'Contact Us',
+    title: 'Politics HiWay',
     icon: <BiLogIn />,
-    href: 'contact-us',
+    href: 'politics-hiway',
+  },
+  {
+    title: 'Politics CoWay',
+    icon: <BiLogIn />,
+    href: 'politics-coway',
   },
   {
     title: 'Service Single',

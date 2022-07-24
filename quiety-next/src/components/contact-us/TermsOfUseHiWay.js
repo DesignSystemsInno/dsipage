@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const ContactForm = () => {
+const TermsOfUseHiWay = () => {
   return (
     <section
       className="contact-us-form pt-60 pb-120"
@@ -672,4 +672,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default TermsOfUseHiWay;

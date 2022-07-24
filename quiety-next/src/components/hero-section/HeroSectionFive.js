@@ -15,18 +15,18 @@ const HeroSectionFive = () => {
             <div className="hero-content-wrap mt-0 mt-lg-0 mt-xl-0">
               <div className="mb-4">
                 <img
-                      src="/screen/hiwayicon.png"
-                      alt="awards"
-                      className="w-25"
+                  src="/screen/hiwayicon.png"
+                  alt="awards"
+                  className="w-25"
                   />
               </div>
-                <div className="m-3">
-                  <HeroTitle
-                    title="HiWay"
-                    desc="¡El tiempo es tuyo!"
-                  />
-                  <p>Aplicación para visualizar el transporte público en tiempo real.</p>
-                </div>
+              <div className="m-3">
+                <HeroTitle
+                  title="HiWay"
+                  desc="¡El tiempo es tuyo!"
+                />
+                <p>Aplicación para visualizar el transporte público en tiempo real.</p>
+              </div>
               <div
                 className="action-btns mt-5"
                 data-aos="fade-up"
@@ -35,8 +35,8 @@ const HeroSectionFive = () => {
                 <Link href="https://play.google.com/store/apps/details?id=com.camilogalvis.hiway">
                   <a className="btn btn-primary me-3 mb-3">Descargar</a>
                 </Link>
-                <Link href="/contact-us">
-                  <a className="btn btn-outline-light mb-3">Politicas & Condiciones</a>
+                <Link href="/politics-hiway">
+                  <a className="btn btn-outline-light mb-3">Políticas & Condiciones</a>
                 </Link>
               </div>
               <ul

@@ -13,7 +13,7 @@ const OffCanvasMenu = () => {
               </li>
               <li>
                 {/* <Link href="/pricing"> */}
-                <Link href="/#nosotros">
+                <Link href="/about-us">
                   <a className="nav-link">Nosotros</a>
                 </Link>
               </li>

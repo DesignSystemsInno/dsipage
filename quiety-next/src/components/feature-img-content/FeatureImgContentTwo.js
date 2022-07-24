@@ -17,7 +17,7 @@ const FeatureImgContentTwo = ({ bgWhite }) => {
           <div className="col-lg-6 col-md-12">
             <div className="section-heading">
               <h4 className="h5 text-primary">Nuestros  Principios</h4>
-              <h2>La Esencia Que Mantiene En Marcha Los Propósitos de DSI</h2>
+              <h2>La Esencia Que Mantiene En Marcha Nuestro Propósito</h2>
               <p>
                 Adoptamos tres principios del mundo del DevOps 
                 para desarrollar soluciones más colaborativas.

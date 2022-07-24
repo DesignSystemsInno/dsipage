@@ -13,11 +13,11 @@ const WorkProcessOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="section-heading text-center">
               <h4 className="h5 text-primary">Procesos</h4>
-              <h2>Nuestro algoritmo de transformación digital está basado en la 
-                filosofía de: idear, crear, medir, aprender e iterar. </h2>
+              <h2>Nuestro algoritmo de transformación digital está basado 
+                en la filosofía de idear, crear, medir, aprender e iterar.</h2>
               <p>
-              (Nos centramos en las necesidades de nuestros clientes y no en el producto como tal, 
-              porque entendemos y está en nuestro ADN, que la tecnología es un medio y no un fin).
+              Nos centramos en las necesidades de nuestros clientes y no en el producto como tal, 
+              porque entendemos y está en nuestro ADN, que la tecnología es un medio y no un fin.
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ const WorkProcessOne = () => {
                   <h3 className="h5 mb-2">Creación</h3>
                   <p>
                     Nos enfocamos en el desarrollo de productos mínimos viables (MVP's), 
-                    que validen alternativas de solución a muy bajo costo y en tiempo cortos
+                    que validen alternativas de solución a muy bajo costo y en tiempo cortos.
                   </p>
                 </div>
               </li>
@@ -79,7 +79,7 @@ const WorkProcessOne = () => {
                   <h3 className="h5 mb-2">Medición:</h3>
                   <p>
                     Usamos las mejores métricas cuantitativas y 
-                    cualitativas para analizar e identificar los resultados claves de los MVP's
+                    cualitativas para analizar e identificar los resultados claves de los MVP's.
                   </p>
                 </div>
               </li>

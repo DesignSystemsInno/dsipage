@@ -18,7 +18,7 @@ const AboutUs = () => {
       <Navbar classOption="navbar-light" />
       <HeroSectionTwo />
       <OurStory />
-      <FeatureImgContentTwo />
+      <FeatureImgContentTwo bg-light />
       <OurTeam />
       <TestimonialTwo />
       {/* <OurOffice /> */}

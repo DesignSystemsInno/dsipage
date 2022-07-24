@@ -21,10 +21,10 @@ const HeroSectionTwo = () => {
                   <p className="lead">
                     Un trabajo colaborativo entre definir el problema y encontrar la mejor solución.{' '}
                   </p>
-                  <Link href="/about-us">
-                    <a className="btn btn-soft-primary mt-4">Conoce Nuestro Equipo</a>
+                  <Link href="/reuniones">
+                    <a className="btn btn-soft-primary mt-4">Agendar Reunión</a>
                   </Link>
-                </div>
+                </div> 
                 <img src="/about1-img-2.png" alt="about" className="img-fluid about-img-first mt-5 rounded-custom shadow"/>
               </div>
               <div className="about-content-right">

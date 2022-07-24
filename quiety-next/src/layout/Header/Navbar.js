@@ -190,7 +190,7 @@ const Navbar = ({ navDark }) => {
                     alt="logo"
                     className="img-fluid ps-2"
                   /> */}
-                  <h3>Design Systems</h3>
+                  <h3>Design Systems Inno</h3>
                 </a>
               </Link>
               <button

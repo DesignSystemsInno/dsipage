@@ -20,7 +20,7 @@ const OurStory = () => {
               DSI nace de un grupo de jóvenes, en su mayoría estudiantes de la 
               Universidad EAFIT, que se unieron entorno a un mismo objetivo: compartir,
               intercambiar y poner en practica todo el conocimiento y experiencia que 
-              habían adquirido durante sus carreras. {' '}
+              han adquirido durante sus carreras. {' '}
               </p>
               {/* <div className="mt-4">
                 <h6 className="mb-3">We Are Awarded By-</h6>

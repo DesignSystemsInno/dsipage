@@ -15,14 +15,14 @@ const HeroSectionOne = () => {
           <div className="col-lg-6 col-md-10">
             <div className="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
               <h4 className="fw-bold display-5">
-              Nuestro Propósito
+                Nuestro Propósito
               </h4>
               <p className="lead">
-              Usar la tecnología no como un fin sino  como un medio, para solucionar problemas y mejorar la productividad en las organizaciones.
+                Usar la tecnología no como un fin,  sino como un medio, para solucionar problemas y mejorar la productividad en las organizaciones.
               </p>
               <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                 <Link href="/reuniones">
-                  <a className="btn btn-primary">Agendar reunión</a>
+                  <a className="btn btn-primary">Agendar Reunión</a>
                 </Link>
                 {/* <VideoModal className="true" /> */}
               </div>

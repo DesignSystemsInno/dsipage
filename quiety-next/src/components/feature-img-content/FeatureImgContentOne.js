@@ -19,13 +19,13 @@ const FeatureImgContentOne = () => {
                 </div>
                 <h2>Saber implementar las tecnologías es clave para garantizar el éxito.</h2>
                 <p>
-                Encaminamos a las organizaciones acerca de la implementación de sistemas y tecnologías de la información 
-                adecuadas, para que el mejoramiento de procesos y resolución de problemas en sus negocios.
+                Encaminamos a las organizaciones acerca de la implementación de sistemas y tecnologías 
+                de la información adecuadas, para el mejoramiento de procesos y resolución de problemas en sus negocios.
                 </p>
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Adopción  de CRMs.
+                    Adopción  de CRMs
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
@@ -33,15 +33,15 @@ const FeatureImgContentOne = () => {
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Integración de comercio electrónico.
+                    Integración de comercio electrónico
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Herramientas de inventario. 
+                    Herramientas de inventario 
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    SMS marketing.
+                    SMS marketing
                   </li>
                 </ul>
               </div>
@@ -76,7 +76,7 @@ const FeatureImgContentOne = () => {
                 <ul className="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
-                    Procesos creativos.
+                    Procesos creativos
                   </li>
                   <li className="py-1">
                     <FaCheckCircle className="fas me-2 text-primary mb-1" />
