@@ -3,8 +3,8 @@ import Layout from '@layout/Layout';
 import Footer from '@layout/Footer/Footer';
 import Navbar from '@layout/Header/Navbar';
 import PageHeader from '@components/common/PageHeader';
-import PrivacyPoliticsHiWay from '@components/contact-us/PrivacyPoliticsHiWay';
-import TermsOfUseHiWay from '@components/contact-us/TermsOfUseHiWay';
+import PrivacyPoliticsHiWay from '@components/politics-projects/PrivacyPoliticsHiWay';
+import TermsOfUseHiWay from '@components/politics-projects/TermsOfUseHiWay';
 
 const PoliticsHiWay = () => {
   return (
