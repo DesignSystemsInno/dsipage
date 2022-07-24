@@ -3,7 +3,7 @@ import Layout from '@layout/Layout';
 import Footer from '@layout/Footer/Footer';
 import Navbar from '@layout/Header/Navbar';
 import PageHeader from '@components/common/PageHeader';
-import PrivacyPoliticsCoway from '@components/politics-projects/PrivacyPoliticsCoway';
+import PrivacyPoliticsCoWay from '@components/politics-projects/PrivacyPoliticsCoWay';
 import TermsOfUseCoWay from '@components/politics-projects/TermsOfUseCoWay';
 
 const PoliticsCoWay = () => {
@@ -14,7 +14,7 @@ const PoliticsCoWay = () => {
         title="Políticas y Condiciones - CoWay"
         desc="A continuación encontrarás las Politicas de Seguridad y los Términos & Condiciones. También Términos y Condiciones."
       />
-      <PrivacyPoliticsCoway />
+      <PrivacyPoliticsCoWay />
       <TermsOfUseCoWay />
       <Footer />
     </Layout>

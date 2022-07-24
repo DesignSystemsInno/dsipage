@@ -5,7 +5,7 @@ import {
   BsTelephoneInbound,
 } from 'react-icons/bs';
 
-const PrivacyPoliticsCoway = () => {
+const PrivacyPoliticsCoWay = () => {
   return (
     <section className="contact-promo ptb-120">
       <div className="container">
@@ -402,4 +402,4 @@ const PrivacyPoliticsCoway = () => {
   );
 };
 
-export default PrivacyPoliticsCoway;
+export default PrivacyPoliticsCoWay;
