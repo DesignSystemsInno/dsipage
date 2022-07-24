@@ -14,7 +14,7 @@ const FeatureOne = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
               <SectionTitle
-                title="Servicios Para La Nueva Era Digital"
+                title="Servicios Para La Nueva Era Digital."
                 description="Estamos a la vanguardia del desarrollo de software."
                 centerAlign
               />

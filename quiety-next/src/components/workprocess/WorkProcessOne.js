@@ -76,7 +76,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className="icon-content">
                   <span className="text-primary h6">Paso 3</span>
-                  <h3 className="h5 mb-2">Medición:</h3>
+                  <h3 className="h5 mb-2">Medición</h3>
                   <p>
                     Usamos las mejores métricas cuantitativas y 
                     cualitativas para analizar e identificar los resultados claves de los MVP's.

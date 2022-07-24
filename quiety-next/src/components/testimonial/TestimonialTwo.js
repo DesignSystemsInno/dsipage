@@ -55,7 +55,7 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
               {dark ? (
                 <SectionTitle
                   subtitle="Equipo"
-                  title="Atributos De Nuestros Colaboradores"
+                  title="Atributos De Nuestros Colaboradores."
                   description="Una transición a la modernidad. Innovación con las herramientas más óptimas."
                   darkBg
                   centerAlign
@@ -63,7 +63,7 @@ const TestimonialTwo = ({ dark, bgWhite }) => {
               ) : (
                 <SectionTitle
                   subtitle="Equipo"
-                  title="Atributos De Nuestros Colaboradores"
+                  title="Atributos De Nuestros Colaboradores."
                   description="Una transición a la modernidad. Innovación con las herramientas más óptimas."
                   centerAlign
                 />
