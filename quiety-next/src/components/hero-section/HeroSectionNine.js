@@ -5,7 +5,7 @@ import VideoModal from '../common/VideoModal';
 import HeroTitle from '../common/HeroTitle';
 import { FaRegCheckCircle } from 'react-icons/fa';
 
-const HeroSectionSeven = () => {
+const HeroSectionNine = () => {
   return (
     <>
       <section
@@ -17,27 +17,27 @@ const HeroSectionSeven = () => {
             <div className="hero-content-wrap mt-0 mt-lg-0 mt-xl-0">
               <div className="mb-4">
                 <img
-                      src="/screen/cowayicon.png"
-                      alt="awards"
-                      className="w-25"
+                  src="/screen/kidwayicon2.png"
+                  alt="awards"
+                  className="w-25"
                   />
               </div>
               <div className="m-3">
                 <HeroTitle
-                  title="CoWay"
-                  desc="¡El futuro está en el campo!"
+                  title="KidWay"
+                  desc="¡Un camino seguro!"
                 />
-                <p>Aplicación para visualizar el ganado en tiempo real.</p>
+                <p>Aplicación para visualizar el transporte escolar.</p>
               </div>
               <div
                 className="action-btns mt-5"
                 data-aos="fade-up"
                 data-aos-delay="50"
               >
-                <Link href="https://play.google.com/store/apps/details?id=com.camilogalvis.coway">
+                {/* <Link href="https://play.google.com/store/apps/details?id=com.camilogalvis.coway">
                   <a className="btn btn-primary me-3 mb-3">Descargar</a>
-                </Link>
-                <Link href="/politics-coway">
+                </Link> */}
+                <Link href="/politics-kidway">
                   <a className="btn btn-outline-light mb-3">Políticas & Condiciones</a>
                 </Link>
               </div>
@@ -49,7 +49,7 @@ const HeroSectionSeven = () => {
                 <li className="nav-item">
                   <span>
                     <FaRegCheckCircle className="far me-2 text-primary" />
-                    Gratis desde la PlayStore
+                    Proximamente en la PlayStore
                   </span>
                 </li>
               </ul>
@@ -101,7 +101,7 @@ const HeroSectionSeven = () => {
                 </li>
               </ul>
               <img
-                src="/screen/coway-hand.png"
+                src="/screen/kidway-hand.png"
                 alt="hero"
                 className="img-fluid position-relative z-5"
               />
@@ -114,4 +114,4 @@ const HeroSectionSeven = () => {
   );
 };
 
-export default HeroSectionSeven;
+export default HeroSectionNine;

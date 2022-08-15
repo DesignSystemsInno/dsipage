@@ -29,13 +29,19 @@ const HeroSectionOne = () => {
               <div className="row justify-content-lg-start mt-60">
                 <h6 className="text-white-70 mb-2">Proyectos:</h6>
                 <div className="col-4 col-sm-3 my-2">
-                  <h4>IoT Pandas</h4>
+                  <h5>HiWay</h5>
                 </div>
                 <div className="col-4 col-sm-3 my-2">
-                  <h4>HiWay</h4>
+                  <h5>IoT Pandas</h5>
                 </div>
                 <div className="col-4 col-sm-3 my-2">
-                  <h4>Dodo PLATFORM</h4>
+                  <h5>CoWay</h5>
+                </div>
+                <div className="col-4 col-sm-3 my-2">
+                  <h5>Dodo PLATFORM</h5>
+                </div>
+                <div className="col-4 col-sm-3 my-2">
+                  <h5>KidWay</h5>
                 </div>
               </div>
             </div>

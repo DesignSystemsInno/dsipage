@@ -153,13 +153,8 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                 <div className="col-md-7 col-lg-7">
                   <div className="copyright-text">
                     <p className="mb-lg-0 mb-md-0">
-                      &copy; 2022 Todos los derechos reservados. Designed By{' '}
-                      <a
-                        href="https://themetags.com/"
-                        className="text-decoration-none"
-                      >
+                      &copy; 2022 Todos los derechos reservados. Designed By{' '}           
                         Design Systems Inno
-                      </a>
                     </p>
                   </div>
                 </div>

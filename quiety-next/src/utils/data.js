@@ -253,6 +253,10 @@ const footerPages = [
     href: '/politics-coway',
   },
   {
+    title: 'Politics KidWay',
+    href: '/politics-kidway',
+  },
+  {
     title: 'Career Single',
     href: '/career-single',
   },
@@ -269,6 +273,10 @@ const footerTemplate = [
   {
     title: 'Politics CoWay',
     href: '/politics-coway',
+  },
+  {
+    title: 'Politics KidWay',
+    href: '/politics-kidway',
   },
   {
     title: 'Support',
@@ -314,6 +322,11 @@ const navHome = [
     info: 'App Móvil Para Ganadería',
     href: 'coway',
   },
+  {
+    title: 'KidWay',
+    info: 'App Para Transporte Escolar',
+    href: 'kidway',
+  },
   // {
   //   title: 'Software Application',
   //   info: 'IT solutions and SaaS Application',
@@ -346,6 +359,11 @@ const navCompanyLinks = [
     title: 'Politics CoWay',
     icon: <BiLogIn />,
     href: 'politics-coway',
+  },
+  {
+    title: 'Politics KidWay',
+    icon: <BiLogIn />,
+    href: 'politics-kidway',
   },
   {
     title: 'Service Single',
