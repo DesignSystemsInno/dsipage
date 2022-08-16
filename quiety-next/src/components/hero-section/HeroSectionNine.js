@@ -27,7 +27,7 @@ const HeroSectionNine = () => {
                   title="KidWay"
                   desc="¡Un camino seguro!"
                 />
-                <p>Aplicación para visualizar el transporte escolar.</p>
+                <p>Aplicación para visualizar el transporte escolar en tiempo real.</p>
               </div>
               <div
                 className="action-btns mt-5"

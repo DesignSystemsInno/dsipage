@@ -15,7 +15,7 @@ const FeatureNine = () => {
                 subtitle="Aplicación móvil"
                 title="App de visualizar transporte escolar"
                 description="KidWay, es una aplicación móvil que se encarga de mostrar la ubicación
-                del vehículo de transporte escolar en el que se envían los niños. Pudiendo así, observar la ruta
+                del transporte escolar en tiempo real. Pudiendo así, observar la ruta
                 y la información del vehículo mismo, como la placa y la ruta."
                 centerAlign
               />
