@@ -3,6 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import VideoModal from '../common/VideoModal';
+import HubspotForm from 'react-hubspot-form'
+
 
 const HeroSectionOne = () => {
   return (
@@ -20,29 +22,26 @@ const HeroSectionOne = () => {
               <p className="lead">
                 Usar la tecnología no como un fin,  sino como un medio, para solucionar problemas y mejorar la productividad en las organizaciones.
               </p>
-              <div className="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
+              <div className="action-btn my-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
                 <Link href="/reuniones">
                   <a className="btn btn-primary">Agendar Reunión</a>
                 </Link>
                 {/* <VideoModal className="true" /> */}
               </div>
-              <div className="row justify-content-lg-start mt-60">
-                <h6 className="text-white-70 mb-2">Proyectos:</h6>
-                <div className="col-4 col-sm-3 my-2">
-                  <h5>HiWay</h5>
-                </div>
-                <div className="col-4 col-sm-3 my-2">
-                  <h5>IoT Pandas</h5>
-                </div>
-                <div className="col-4 col-sm-3 my-2">
-                  <h5>CoWay</h5>
-                </div>
-                <div className="col-4 col-sm-3 my-2">
-                  <h5>Dodo PLATFORM</h5>
-                </div>
-                <div className="col-4 col-sm-3 my-2">
-                  <h5>KidWay</h5>
-                </div>
+
+              <div>
+                <p>
+                  Para más información, déjanos tu correo.
+                </p>
+                <form className="newsletter-form position-relative d-block d-lg-flex d-md-flex">
+                    <HubspotForm
+                      portalId='21986855'
+                      formId='42486796-a95e-4347-8669-200efa4f344a'
+                      onSubmit={() => console.log('Submit!')}
+                      onReady={(form) => console.log('Form ready!')}
+                      loading={<div>Loading...</div>}
+                    />
+                  </form> 
               </div>
             </div>
           </div>

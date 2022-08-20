@@ -47,8 +47,6 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   <p>
                     Para más información, déjanos tu correo.
                   </p>
-                 
-           
 
                   <form className="newsletter-form position-relative d-block d-lg-flex d-md-flex">
                   <HubspotForm
@@ -58,20 +56,6 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     onReady={(form) => console.log('Form ready!')}
                     loading={<div>Loading...</div>}
                   />
-                     {/*<input
-                      type="text"
-                      className="input-newsletter form-control me-2"
-                      placeholder="Enter your email"
-                      name="email"
-                      required
-                      autoComplete="off"
-                    />
-                    <input
-                      type="submit"
-                      value="Subscribe"
-                      data-wait="Please wait..."
-                      className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
-                    />*/}
                   </form> 
 
                 </div>
