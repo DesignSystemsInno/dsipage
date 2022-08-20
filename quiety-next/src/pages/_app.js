@@ -31,14 +31,6 @@ function MyApp({ Component, pageProps }) {
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-238114868-1">
         </script>
 
-        {/* Google tag (gtag.js) - Google Analytics  */}
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments)}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-238114868-1');
-        </script>
       </Head>
       <Component {...pageProps} />
       <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/21986855.js"></script>

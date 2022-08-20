@@ -10,8 +10,13 @@ import TestimonialOne from '@components/testimonial/TestimonialOne';
 import WorkProcessOne from '@components/workprocess/WorkProcessOne';
 import HeroSectionOne from '@components/hero-section/HeroSectionOne';
 import FeatureImgContentOne from '@components/feature-img-content/FeatureImgContentOne';
+import ReactGA from 'react-ga';
 
 export default function Home() {
+
+  const TRACKING_ID = "UA-238114868-1"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+
   return (
     <Layout>
       <Navbar navDark />
